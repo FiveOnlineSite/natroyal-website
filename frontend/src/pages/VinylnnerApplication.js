@@ -1371,27 +1371,14 @@ const VinylnnerApplication = () => {
       ],
     },
     {
-      type: "Majesty-Pro",
-      title: "Majesty Pro",
+      type: "Royal-Classic",
+      title: "Royal Classic",
       content: [
         {
-          para: "Hardwearing Vinyl Floor covering in elegant and realistic wood designs",
+          para: "Designers collection of authentic images and colours accurately reproduced in roll form",
         },
         {
-          para: "0.7 mm pure PVC transparent wear layer",
-        },
-        {
-          para: "PU coating for easy and low cost maintenance",
-        },
-        {
-          para: "Excellent resistance to scratches, abrasion, soiling and staining.",
-        },
-
-        {
-          para: "Glass fibre scrim for dimensional stability",
-        },
-        {
-          para: "Ideal for domestic and semi-commercial use",
+          para: "Ideal for HOTELS, residential and leisure enviroments",
         },
       ],
       suitable: [
@@ -1717,19 +1704,24 @@ const VinylnnerApplication = () => {
 
       <section className="vinyl-applications-section">
         <div className="container">
-          <h2 className="title new-title text-center">
-            <span className="yellow-title">{selectedCategory.title}</span>
-            {""}
-          </h2>
-
-          <ul className="d-flex flex-column justify-content-center align-items-center">
-            {" "}
-            {selectedCategory?.content?.map((content, index) => (
-              <li className="paragraph gray-para" key={index}>
-                {content.para}
-              </li>
-            ))}
-          </ul>
+          <div className="row">
+            <div className="col-lg-4">
+              <h2 className="title new-title text-start">
+                <span className="yellow-title">{selectedCategory.title}</span>
+                {""}
+              </h2>
+            </div>
+            <div className="col-lg-8">
+              <ul className="d-flex flex-column justify-content-start align-items-start">
+                {" "}
+                {selectedCategory?.content?.map((content, index) => (
+                  <li className="paragraph gray-para" key={index}>
+                    {content.para}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -1740,7 +1732,10 @@ const VinylnnerApplication = () => {
               <div className="col-lg-2 mt-4" key={index}>
                 <NavLink to={application.innerCategory}>
                   <div className="single-application-div">
-                    <img src={application.image} alt={application.name} />
+                    <div className="single-application-img">
+                      <img src={application.image} alt={application.name} />
+                    </div>
+
                     <h4>{application.name}</h4>
                   </div>
                 </NavLink>

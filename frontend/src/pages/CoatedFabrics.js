@@ -38,6 +38,11 @@ const CoatedFabrics = () => {
           <div className="row">
             <ul className="application-tabs d-flex align-items-center justify-content-center">
               <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/coated-fabrics">
+                  Home
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
                 <NavLink className="nav-link" to="/about-coated">
                   About
                 </NavLink>
@@ -79,7 +84,9 @@ const CoatedFabrics = () => {
 
                   <div className="application-overlay">
                     <div className="application-border">
-                      <NavLink>View More</NavLink>
+                      <NavLink to="/coated-fabrics/residential-contract-furnishing">
+                        View More
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -99,7 +106,9 @@ const CoatedFabrics = () => {
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
-                      <NavLink>View More</NavLink>
+                      <NavLink to="/coated-fabrics/automotive">
+                        View More
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -119,7 +128,9 @@ const CoatedFabrics = () => {
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
-                      <NavLink>View More</NavLink>
+                      <NavLink to="/coated-fabrics/two-wheelers">
+                        View More
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -140,7 +151,9 @@ const CoatedFabrics = () => {
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
-                      <NavLink>View More</NavLink>
+                      <NavLink to="/coated-fabrics/marine-recreational-vehicles">
+                        View More
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -161,7 +174,9 @@ const CoatedFabrics = () => {
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
-                      <NavLink>View More</NavLink>
+                      <NavLink to="/coated-fabrics/healthcare">
+                        View More
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -182,7 +197,7 @@ const CoatedFabrics = () => {
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
-                      <NavLink>View More</NavLink>
+                      <NavLink to="/coated-fabrics/footwear">View More</NavLink>
                     </div>
                   </div>
                 </div>
@@ -205,7 +220,7 @@ const CoatedFabrics = () => {
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
-                      <NavLink>View More</NavLink>
+                      <NavLink to="/coated-fabrics/fashion">View More</NavLink>
                     </div>
                   </div>
                 </div>
@@ -225,7 +240,7 @@ const CoatedFabrics = () => {
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
-                      <NavLink>View More</NavLink>
+                      <NavLink to="#">View More</NavLink>
                     </div>
                   </div>
                 </div>
@@ -245,7 +260,7 @@ const CoatedFabrics = () => {
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
-                      <NavLink>View More</NavLink>
+                      <NavLink to="#">View More</NavLink>
                     </div>
                   </div>
                 </div>

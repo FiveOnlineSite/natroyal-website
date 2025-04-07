@@ -21,11 +21,11 @@ const AboutCoated = () => {
                 We are India’s leading manufacturers & exporters of Specifically
                 Engineered Coated Fabrics
               </h1>
-              <div className="d-flex">
+              {/* <div className="d-flex">
                 <NavLink to="/contact-us" className="custom-button">
                   Get Started
                 </NavLink>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -35,6 +35,11 @@ const AboutCoated = () => {
         <div className="container">
           <div className="row">
             <ul className="application-tabs d-flex align-items-center justify-content-center">
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/coated-fabrics">
+                  Home
+                </NavLink>
+              </li>
               <li className="nav-item dropdown">
                 <NavLink className="nav-link active" to="/about-coated">
                   About

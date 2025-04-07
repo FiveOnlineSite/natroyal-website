@@ -241,7 +241,7 @@ const CoatedApplications = () => {
                       <img
                         src={application.image}
                         alt={application.name}
-                        className="w-100"
+                        className="w-100 coated-img"
                       />
                     </div>
                     <div className="col-lg-7 offset-lg-1 mt-4" key={index}>
