@@ -2125,7 +2125,7 @@ body {
 
 .seating-application-img img {
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .suitable-div {
