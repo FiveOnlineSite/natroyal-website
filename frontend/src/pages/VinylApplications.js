@@ -498,7 +498,10 @@ const VinylApplications = () => {
               <div className="col-lg-2 mt-4" key={index}>
                 <NavLink to={application.innerCategory}>
                   <div className="single-application-div">
-                    <img src={application.image} alt={application.name} />
+                    <div className="single-application-img">
+                      <img src={application.image} alt={application.name} />
+                    </div>
+
                     <h4>{application.name}</h4>
                   </div>
                 </NavLink>
