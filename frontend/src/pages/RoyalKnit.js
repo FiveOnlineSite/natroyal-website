@@ -73,7 +73,7 @@ const RoyalKnit = () => {
 
   const textilesData = [
     {
-      image: "/images/sliders/PHOTO-2025-03-31-15-34-22.jpeg",
+      image: "/images/sliders/3ab1200c-fe85-41e9-9ec3-cf458ed78740.jpg",
       name: "Headliner Fabric",
       text: "Our brushed and flat knit headliner ranges are available in more than 30 colors to complement most modern automotive interiors.",
       tags: [
@@ -106,7 +106,7 @@ const RoyalKnit = () => {
       tags: ["Dimensional Stability", "High Tensile Strength", "Upto 3 bar"],
     },
     {
-      image: "/images/sliders/Products For Lamination (2).png",
+      image: "/images/sliders/b516bd0b-a2c3-4304-a541-b54ab0f284ce.jpg",
       name: "Fire Retardant Fabric",
       text: "These fabrics are engineered to resist ignition and prevent flames from spreading, making them essential for automotive and industrial applications.",
       tags: [
@@ -116,7 +116,7 @@ const RoyalKnit = () => {
       ],
     },
     {
-      image: "/images/sliders/hydrophobic-fabric-500x500 1.png",
+      image: "/images/sliders/e3562a94-330f-44fb-a784-dd29c39ddbc4.jpg",
       name: "Water Repellent Fabric",
       text: "Innovative fabrics designed for maximum water resistance.",
       tags: [

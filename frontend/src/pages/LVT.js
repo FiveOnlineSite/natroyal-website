@@ -144,6 +144,10 @@ const LVT = () => {
       video: "https://www.youtube.com/embed/dCXXL92mLgw",
       thumbnail: "/images/lvt/dCXXL92mLgw-HD.jpg",
     },
+    {
+      video: "https://youtu.be/9UKHbfJGr_8?si=RVddF3MUA9V7oKus",
+      thumbnail: "/images/lvt/9UKHbfJGr_8-HD.jpg",
+    },
   ];
 
   return (

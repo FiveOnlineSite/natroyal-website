@@ -76,11 +76,125 @@ const VinylFlooring = () => {
     },
   ];
 
-  const applicationContent = [
-    { category: "Education", items: ["Moonwalk", "Accord", "Mirakle"] },
-    { category: "Healthcare", items: ["Moonwalk", "Accord", "Mirakle"] },
-    { category: "Wet Areas", items: ["Aqua RS"] },
+  const applicationTabsData = [
+    {
+      category: "Education",
+      url: "/vinyl-flooring/education",
+      items: [
+        { name: "Moonwalk", url: "/moonwalk" },
+        { name: "Accord", url: "/accord" },
+        { name: "Mirakle", url: "/mirakle" },
+        { name: "Symphony", url: "/symphony" },
+        { name: "Startrek", url: "/startrek" },
+        { name: "Royal Star", url: "/royal-star" },
+        { name: "Elegant", url: "/elegant" },
+        { name: "Dazzle", url: "/dazzle" },
+        { name: "Nuplank", url: "/nuplank" },
+        { name: "Tiger", url: "/tiger" },
+        { name: "Avengers", url: "/avengers" },
+      ],
+    },
+    {
+      category: "Health Care",
+      url: "/vinyl-flooring/healthcare",
+      items: [
+        { name: "Moonwalk", url: "/moonwalk" },
+        { name: "Accord", url: "/accord" },
+        { name: "Mirakle", url: "/mirakle" },
+        { name: "Wally", url: "/wally" },
+        { name: "Startrek", url: "/startrek" },
+        { name: "Orbit", url: "/orbit" },
+        { name: "Royal Star", url: "/royal-star" },
+        { name: "Dazzle", url: "/dazzle" },
+        { name: "Nuplank", url: "/nuplank" },
+        { name: "Tiger", url: "/tiger" },
+        { name: "Avengers", url: "/avengers" },
+      ],
+    },
+    {
+      category: "Wet Areas",
+      url: "/vinyl-flooring/wet-areas",
+      items: [{ name: "Aqua RS", url: "/aqua-rs" }],
+    },
+    {
+      category: "Residential",
+      url: "/vinyl-flooring/residential",
+      items: [
+        { name: "Royal Star", url: "/royal-star" },
+        { name: "Moonwalk", url: "/moonwalk" },
+        { name: "Accord", url: "/accord" },
+        { name: "Majesty Pro", url: "/majesty-pro" },
+        { name: "Opera", url: "/opera" },
+        { name: "Elegant", url: "/elegant" },
+        { name: "Dazzle", url: "/dazzle" },
+        { name: "Royal Classic", url: "/royal-classic" },
+        { name: "Nuplank", url: "/nuplank" },
+        { name: "Mirakle", url: "/mirakle" },
+        { name: "Majesty", url: "/majesty" },
+        { name: "Printed Flooring", url: "/printed-flooring" },
+      ],
+    },
+    {
+      category: "Offices/Retail",
+      url: "/vinyl-flooring/offices-retail",
+      items: [
+        { name: "Moonwalk", url: "/moonwalk" },
+        { name: "Accord", url: "/accord" },
+        { name: "Mirakle", url: "/mirakle" },
+        { name: "Symphony", url: "/symphony" },
+        { name: "Startrek", url: "/startrek" },
+        { name: "Orbit", url: "/orbit" },
+        { name: "Suprema RS", url: "/suprema-rs" },
+        { name: "Standard RS", url: "/standard-rs" },
+        { name: "Aqua RS", url: "/aqua-rs" },
+        { name: "Royal Star", url: "/royal-star" },
+        { name: "Elegant", url: "/elegant" },
+        { name: "Dazzle", url: "/dazzle" },
+        { name: "Nuplank", url: "/nuplank" },
+        { name: "Majesty Pro", url: "/majesty-pro" },
+        { name: "Majesty", url: "/majesty" },
+        { name: "Royal Classic", url: "/royal-classic" },
+        { name: "Tiger", url: "/tiger" },
+        { name: "Avengers", url: "/avengers" },
+      ],
+    },
+    {
+      category: "Hospitality",
+      url: "/vinyl-flooring/hospitality",
+      items: [
+        { name: "Moonwalk", url: "/moonwalk" },
+        { name: "Accord", url: "/accord" },
+        { name: "Mirakle", url: "/mirakle" },
+        { name: "Tuff", url: "/tuff" },
+        { name: "Symphony", url: "/symphony" },
+        { name: "Startrek", url: "/startrek" },
+        { name: "Sonata", url: "/sonata" },
+        { name: "Suprema RS", url: "/suprema-rs" },
+        { name: "Standard RS", url: "/standard-rs" },
+        { name: "Aqua RS", url: "/aqua-rs" },
+        { name: "Eco Plus V", url: "/eco-plus-v" },
+        { name: "Royal Star", url: "/royal-star" },
+        { name: "Tiger", url: "/tiger" },
+        { name: "Avengers", url: "/avengers" },
+      ],
+    },
+    {
+      category: "Transport",
+      url: "/vinyl-flooring/transport",
+      items: [
+        { name: "Sonata", url: "/sonata" },
+        { name: "Suprema RS", url: "/suprema-rs" },
+        { name: "Eco Plus V", url: "/eco-plus-v" },
+        { name: "Gripper", url: "/gripper" },
+      ],
+    },
+    {
+      category: "Sports",
+      url: "/vinyl-flooring/sports",
+      items: [{ name: "Avengers", url: "/avengers" }],
+    },
   ];
+
   return (
     <Layout>
       {/* <section className="landing-banner-section">
@@ -122,488 +236,27 @@ const VinylFlooring = () => {
         <div className="container">
           <div className="row">
             <ul className="application-tabs d-lg-flex align-items-center justify-content-center d-none">
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                >
-                  Education
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Moonwalk
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Accord
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Mirakle
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Symphony
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Star Trek
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Royal Star
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Elegant
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Dazzle
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Nuplank
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Tiger
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Avengers
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                >
-                  Health Care
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Moonwalk
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Accord
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Mirakle
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Wally
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Star Trek
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Orbit
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Royal Star
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Dazzle
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Nuplank
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Tiger
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Avengers
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                >
-                  Wet Areas
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Aqua RS
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                >
-                  Residential
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Royal Star
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Moonwalk
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Accord
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Majesty Pro
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Opera
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Elegant
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Dazzle
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Royal Classic
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Nuplank
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Mirakle
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Majesty
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Printed Flooring
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                >
-                  Offices/Retail
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Moonwalk
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Accord
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Mirakle
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Symphony
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Star Trek
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Orbit
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Suprema RS
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Standard RS
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Aqua RS
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Royal Star
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Elegant
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Dazzle
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Nuplank
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Majesty Pro
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Majesty
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Royal Classic
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Tiger
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Avengers
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                >
-                  Hospitality
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Moonwalk
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Accord
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Mirakle
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Tuff
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Symphony
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Star Trek
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Sonata
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Suprema RS
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Standard RS
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Aqua RS
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Eco Plus V
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Royal Star
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Tiger
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Avengers
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                >
-                  Transport
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Sonata
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Suprema RS
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Eco Plus V
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Gripper
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                >
-                  Sports
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Avengers
-                    </a>
-                  </li>
-                </ul>
-              </li>
+              {applicationTabsData.map((tab, index) => (
+                <li key={index} className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href={tab.url}
+                    role="button"
+                  >
+                    {tab.category}
+                  </a>
+                  <ul className="dropdown-menu">
+                    {tab.items.map((item, itemIndex) => (
+                      <li key={itemIndex}>
+                        <a className="dropdown-item" href={item.url}>
+                          {item.name}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              ))}
             </ul>
-
-            <div className="applications-accordions">
-              <ApplicationsModal />
-            </div>
           </div>
         </div>
       </section>

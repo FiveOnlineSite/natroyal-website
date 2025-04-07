@@ -1484,6 +1484,11 @@ body {
   border-top-right-radius: 20px;
 } */
 
+.textiles-image-container img {
+  height: 250px;
+  object-fit: cover;
+}
+
 .textiles-element:hover .textiles-container .textiles-image-container img {
   transition: all 0.6s ease;
   /* border-top-left-radius: 20px;
@@ -2150,6 +2155,21 @@ body {
 .application-tags-row a {
   width: auto;
 }
+
+.application-tags-row a {
+  color: var(--white-font);
+}
+
+.application-tabs .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Optional: remove gap */
+}
+
+/* Optional: Keep dropdown open when moving cursor inside */
+.application-tabs .dropdown-menu {
+  transition: opacity 0.3s ease;
+}
+
 @keyframes smallScale {
   0% {
     transform: scale(1);

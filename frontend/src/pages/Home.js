@@ -261,7 +261,7 @@ const Home = () => {
                 Flooring, Fabrics, and Seating Solution
               </h2>
 
-              <div className="row">
+              <div className="row mt-5">
                 <div className="col-lg-6">
                   <p className="paragraph">
                     Since 1962, Natroyal Group has been a leader in

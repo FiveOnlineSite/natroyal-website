@@ -9,7 +9,7 @@ const SeatingApplications = () => {
       type: "Railway-Metro",
       title: "Railway / Metro",
       para: "Total solution from Designing, Proto Sample Development, Testing, Tooling, Manufacturing & Supply. SS & CS production through EN-15085-2 certified WELDING STANDARD and GLOBALLY in the club of 2540 company instated of EN – ISO 15609- :2004. Pipe bending products through Multi Axis CNC machine. In-house Design, Tool Room and R&D Centre",
-      banner_video: "/images/seating/Metro-Video.mp4",
+      banner_video: "/images/seating/Metro.mp4",
       applications: [
         {
           step: "01",
@@ -44,7 +44,7 @@ const SeatingApplications = () => {
     {
       type: "Cinema",
       title: "Cinema",
-      banner_img: "/images/banners/collage.png",
+      banner_video: "/images/seating/cinema.mp4",
       applications: [
         {
           step: "01",
