@@ -13,23 +13,23 @@ const SeatingApplications = () => {
       applications: [
         {
           step: "01",
-          image: "/images/applications/seating/1.png",
+          image: "/images/applications/seating/NR SCD PPT 2024_082.png",
         },
         {
           step: "02",
-          image: "/images/applications/seating/NR SCD PPT 2024_045 (1).png",
-        },
-        {
-          step: "03",
-          image: "/images/applications/seating/NR SCD PPT 2024_076.png",
-        },
-        {
-          step: "04",
           image: "/images/applications/seating/NR SCD PPT 2024_079.png",
         },
         {
+          step: "03",
+          image: "/images/applications/seating/NR SCD PPT 2024_045 (1).png",
+        },
+        {
+          step: "04",
+          image: "/images/applications/seating/NR SCD PPT 2024_076.png",
+        },
+        {
           step: "05",
-          image: "/images/applications/seating/NR SCD PPT 2024_082.png",
+          image: "/images/applications/seating/1.png",
         },
         // {
         //   step: "06",
