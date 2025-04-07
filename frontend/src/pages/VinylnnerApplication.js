@@ -1706,13 +1706,13 @@ const VinylnnerApplication = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
-              <h2 className="title new-title text-start">
+              <h2 className="title new-title text-start pt-0">
                 <span className="yellow-title">{selectedCategory.title}</span>
                 {""}
               </h2>
             </div>
             <div className="col-lg-8">
-              <ul className="d-flex flex-column justify-content-start align-items-start">
+              <ul className="d-flex flex-column justify-content-center align-items-start">
                 {" "}
                 {selectedCategory?.content?.map((content, index) => (
                   <li className="paragraph gray-para" key={index}>
