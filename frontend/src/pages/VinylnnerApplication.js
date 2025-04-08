@@ -2413,7 +2413,7 @@ const VinylnnerApplication = () => {
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
       { label: "Vinyl Flooring", path: "/vinyl-flooring", active: false },
-      { label: selectedCategory?.title, path: null, active: true },
+      { label: selectedCategory?.name, path: null, active: true },
     ],
   };
 

@@ -114,7 +114,7 @@ const SeatingApplications = () => {
         path: "/seating-components",
         active: false,
       },
-      { label: selectedCategory?.title, path: null, active: true },
+      { label: selectedCategory?.name, path: null, active: true },
     ],
   };
 

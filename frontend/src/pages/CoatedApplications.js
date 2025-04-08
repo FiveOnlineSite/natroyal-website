@@ -215,7 +215,7 @@ const CoatedApplications = () => {
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
       { label: "Coated Fabrics", path: "/coated-fabrics", active: false },
-      { label: selectedCategory?.title, path: null, active: true },
+      { label: selectedCategory?.name, path: null, active: true },
     ],
   };
 
