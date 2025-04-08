@@ -116,20 +116,23 @@ const SeatingComponents = () => {
           <div className="row">
             <ul className="application-tabs d-flex align-items-center justify-content-center">
               <li className="nav-item dropdown">
-                <a className="nav-link" href="#">
+                <NavLink
+                  className="nav-link"
+                  to="/seating-components/railway-metro"
+                >
                   Railway/Metro
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" to="/seating-components/bus">
                   Bus
-                </a>
+                </NavLink>
               </li>
 
               <li className="nav-item dropdown">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" to="/seating-components/cinema">
                   Cinema
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
