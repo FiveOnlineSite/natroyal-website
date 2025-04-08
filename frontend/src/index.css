@@ -113,6 +113,11 @@ body {
   height: 84vh;
 }
 
+.poster-container img,
+.poster-container video {
+  filter: brightness(0.6);
+}
+
 .video-container {
   height: 100%;
 }
@@ -839,6 +844,7 @@ body {
   height: 84vh;
   object-fit: cover;
   position: relative;
+  filter: brightness(0.6);
 }
 
 .banner-section-text {

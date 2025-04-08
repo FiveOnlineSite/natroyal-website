@@ -8,8 +8,9 @@ const VinylApplications = () => {
     {
       type: "Education",
       title: "Education",
+      name: "Education",
       para: "Our Education range of Vinyl Flooring is developed to help students concentrate, inspire and interact. The vibrant colors enhance creativity and concentration for both the students and facilitators.",
-
+      bannerImg: "/images/vinyl/Education.png",
       applications: [
         {
           image: "/images/applications/education/MW2011.jpg",
@@ -66,6 +67,8 @@ const VinylApplications = () => {
     {
       type: "Healthcare",
       title: "Healthcare",
+      name: "Healthcare",
+      bannerImg: "/images/vinyl/Healthcare.png",
       para: "Our flooring provides a healthy and hygienic environment to patients to enhance the healing and curing elements for a speedy recovery. The care givers receive aid in providing the same with ease and experience comfort in the work place. The Flooring is also designed for bare foot and continuous wet areas.",
       applications: [
         {
@@ -122,7 +125,10 @@ const VinylApplications = () => {
     },
     {
       type: "Wet-Areas",
-      title: "Wet Areas",
+      title: "Wet",
+      spanTitle: "Areas",
+      name: "Wet Areas",
+      bannerImg: "/images/vinyl/wet-area-banner.png",
       para: "Our flooring provides a healthy and hygienic environment to patients to enhance the healing and curing elements for a speedy recovery. The care givers receive aid in providing the same with ease and experience comfort in the work place. The Flooring is also designed for bare foot and continuous wet areas.",
       applications: [
         {
@@ -135,6 +141,8 @@ const VinylApplications = () => {
     {
       type: "Residential",
       title: "Residential",
+      name: "Residential",
+      bannerImg: "/images/vinyl/Residential Vinyl.jpg",
       para: "Our exquisite range of vinyl floor coverings in wooden, geometric and all over designs is developed keeping in mind the various tastes of individuals for designing their homes. It is easy to maintain and hassle free installation helps its users to change their interiors as often as desired. Flooring category includes printed flooring for normal economical range and Royal Star, Moonwalk, Majesty, Opera, Symphony, Royal Classic etc.",
       applications: [
         {
@@ -186,7 +194,7 @@ const VinylApplications = () => {
         {
           image: "/images/applications/residential/MP 117047.jpg",
           name: "Majesty Pro",
-          innerCategory: "majesty-pro",
+          innerCategory: "/majesty-pro",
         },
 
         {
@@ -203,7 +211,10 @@ const VinylApplications = () => {
     },
     {
       type: "Offices-Retail",
-      title: "Offices/Retail",
+      title: "Offices",
+      spanTitle: "/ Retail",
+      name: "Offices/Retail",
+      bannerImg: "/images/vinyl/Office Vinyl.jpg",
       para: "Where aesthetics meet practicality, our various ranges are designed to meet the growing aesthetics demands of the guests/ customers in offices, retail and hospitality. It also meets the high performance requirement at the same time.",
       applications: [
         {
@@ -303,6 +314,8 @@ const VinylApplications = () => {
     {
       type: "Hospitality",
       title: "Hospitality",
+      name: "Hospitality",
+      bannerImg: "/images/vinyl/Hospitality Vinyl.jpg",
       para: "Where aesthetics meet practicality, our various ranges are designed to meet the growing aesthetics demands of the guests/ customers in offices, retail and hospitality. It also meets the high performance requirement at the same time.",
       applications: [
         {
@@ -407,6 +420,8 @@ const VinylApplications = () => {
     {
       type: "Transport",
       title: "Transport",
+      name: "Transport",
+      bannerImg: "/images/vinyl/Transport Vinyl.jpg",
       para: "Various range of high endurance transport Vinyl Flooring are designed to meet the high Safety standards, provide a hygienic, comfortable and attractive environment to passengers. Pioneers of introducing Vinyl Flooring ranges like Gripper, Suprema RS, Standard RS, Sonata and Ecoplus V of International Standards for the Transport Industry in india.",
       applications: [
         {
@@ -439,6 +454,8 @@ const VinylApplications = () => {
     {
       type: "Sports",
       title: "Sports",
+      name: "Sports",
+      bannerImg: "/images/vinyl/Avenger-Banner.jpg",
       para: "Avengers is multi- purpose sports surface designed for use in a wide range of sporting events like Gymnasiums, Yoga rooms, Table Tennis, fitness centers etc. It is manufactured keeping in view the varying shock absorbing requirements and performance requirements.",
       applications: [
         {
@@ -461,8 +478,8 @@ const VinylApplications = () => {
   }
 
   const bannerData = {
-    bannerImg: "/images/banners/collage.png",
-    title: selectedCategory?.title || "Default Title", // Ensure it doesn't break if selectedCategory is undefined
+    bannerImg: selectedCategory.bannerImg,
+    title: selectedCategory?.name || "Default Title", // Ensure it doesn't break if selectedCategory is undefined
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
       { label: "Vinyl Flooring", path: "/vinyl-flooring", active: false },
@@ -481,7 +498,9 @@ const VinylApplications = () => {
       <section className="vinyl-applications-section">
         <div className="container">
           <h2 className="title new-title text-center">
-            <span className="yellow-title">{selectedCategory.title}</span>
+            {" "}
+            {selectedCategory.title} {""}
+            <span className="yellow-title">{selectedCategory.spanTitle}</span>
             {""}
           </h2>
 
@@ -495,7 +514,7 @@ const VinylApplications = () => {
         <div className="container">
           <div className="row">
             {selectedCategory.applications.map((application, index) => (
-              <div className="col-lg-2 mt-4" key={index}>
+              <div className="col-lg-2 col-md-6 col-12 mt-4" key={index}>
                 <NavLink to={application.innerCategory}>
                   <div className="single-application-div">
                     <div className="single-application-img">

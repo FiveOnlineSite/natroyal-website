@@ -8,6 +8,8 @@ const VinylnnerApplication = () => {
     {
       type: "Moonwalk",
       title: "Moonwalk",
+      name: "Moonwalk",
+      bannerImg: "/images/categories/Moonwalk-Banner.png",
       content: [
         {
           para: "Hardwearing Vinyl Floor covering in overall design",
@@ -90,6 +92,8 @@ const VinylnnerApplication = () => {
     {
       type: "Symphony",
       title: "Symphony",
+      name: "Symphony",
+      bannerImg: "/images/categories/symphony-Banner.png",
       content: [
         {
           para: "Symphony has a well-orchestrated ensemble of chips that flows in mesmerising patterns",
@@ -192,6 +196,8 @@ const VinylnnerApplication = () => {
     {
       type: "Elegant",
       title: "Elegant",
+      name: "Elegant",
+      bannerImg: "/images/categories/Elegant-Banner.png",
       content: [
         {
           para: "Printed flooring with floating colourful chips adds elegance to the room decore",
@@ -265,6 +271,8 @@ const VinylnnerApplication = () => {
     {
       type: "Accord",
       title: "Accord",
+      name: "Accord",
+      bannerImg: "/images/categories/accord-banner.png",
       content: [
         {
           para: "1 mm homogenous wear layer with compact sombre color particles throughout the thickness for enhanced durability",
@@ -346,6 +354,8 @@ const VinylnnerApplication = () => {
     {
       type: "Startrek",
       title: "Startrek",
+      name: "Startrek",
+      bannerImg: "/images/categories/Startrek-Banner.png",
       content: [
         {
           para: "1 mm homogenous wear layer with compact vibrant color particles throughout the thickness for enhanced durability",
@@ -422,6 +432,8 @@ const VinylnnerApplication = () => {
     {
       type: "Dazzle",
       title: "Dazzle",
+      name: "Dazzle",
+      bannerImg: "/images/categories/Dazzle-Banner.png",
       content: [
         {
           para: "1 mm homogenous wear layer with compact vibrant color particles throughout the thickness for enhanced durability",
@@ -505,6 +517,8 @@ const VinylnnerApplication = () => {
     {
       type: "Mirakle",
       title: "Mirakle",
+      name: "Mirakle",
+      bannerImg: "/images/categories/Mirakle-Banner.png",
       content: [
         {
           para: "High Quality Vinyl Resilient flooring in Homogenous Construction",
@@ -586,7 +600,10 @@ const VinylnnerApplication = () => {
     },
     {
       type: "Royal-Star",
-      title: "Royal Star",
+      title: "Royal",
+      spanTitle: "Star",
+      name: "Royal Star",
+      bannerImg: "/images/categories/Royal-Star-Banner.png",
       content: [
         {
           para: "Colored wear layer with decorative multi-color chips to enhance the room interiors",
@@ -680,6 +697,8 @@ const VinylnnerApplication = () => {
     {
       type: "Nuplank",
       title: "Nuplank",
+      name: "Nuplank",
+      bannerImg: "/images/categories/Nuplank-Banner.png",
       content: [
         {
           para: "Ideal for showrooms, offices, hotel lobbies and leisure environments",
@@ -797,6 +816,8 @@ const VinylnnerApplication = () => {
     {
       type: "Tiger",
       title: "Tiger",
+      name: "Tiger",
+      bannerImg: "/images/categories/Tiger-Banner.png",
       content: [
         {
           para: "Superior marbleised designs in refreshed colors",
@@ -880,6 +901,8 @@ const VinylnnerApplication = () => {
     {
       type: "Avengers",
       title: "Avengers",
+      name: "Avengers",
+      bannerImg: "/images/categories/Avenger-Banner.jpg",
       content: [
         {
           para: "Avengers is multi- purpose sports surface designed for use in a wide range of sporting events like Gymnasiums, Yoga rooms, Table Tennis, fitness centers etc.",
@@ -958,6 +981,8 @@ const VinylnnerApplication = () => {
     {
       type: "Wally",
       title: "Wally",
+      name: "Wally",
+      bannerImg: "/images/categories/Wally-Banner.png",
       content: [
         {
           para: "Easy to clean, install and attractive finish",
@@ -1007,6 +1032,8 @@ const VinylnnerApplication = () => {
     {
       type: "Orbit",
       title: "Orbit",
+      name: "Orbit",
+      bannerImg: "/images/categories/Orbit-Banner.png",
       content: [
         {
           para: "For greater safety in sensitive environments",
@@ -1071,7 +1098,10 @@ const VinylnnerApplication = () => {
     },
     {
       type: "Aqua-RS",
-      title: "Aqua RS",
+      title: "Aqua",
+      spanTitle: "RS",
+      name: "Aqua RS",
+      bannerImg: "/images/categories/Aqua-RS-Banner.png",
       content: [
         {
           para: "Designed for barefoot and continually wet areas",
@@ -1155,6 +1185,9 @@ const VinylnnerApplication = () => {
     {
       type: "Majesty-Pro",
       title: "Majesty Pro",
+      spanTitle: "Pro",
+      name: "Majesty Pro",
+      bannerImg: "/images/categories/Majesty-Pro-Banner.png",
       content: [
         {
           para: "Hardwearing Vinyl Floor covering in elegant and realistic wood designs",
@@ -1260,6 +1293,8 @@ const VinylnnerApplication = () => {
     {
       type: "Opera",
       title: "Opera",
+      name: "Opera",
+      bannerImg: "/images/categories/Opera-Banner.png",
       content: [
         {
           para: "Wooden designs in various attractive colors",
@@ -1372,7 +1407,10 @@ const VinylnnerApplication = () => {
     },
     {
       type: "Royal-Classic",
-      title: "Royal Classic",
+      title: "Royal",
+      spanTitle: "Classic",
+      name: "Royal Classic",
+      bannerImg: "/images/categories/Royal-Classic-Banner.png",
       content: [
         {
           para: "Designers collection of authentic images and colours accurately reproduced in roll form",
@@ -1401,89 +1439,89 @@ const VinylnnerApplication = () => {
 
       applications: [
         {
-          image: "/images/categories/majesty-pro/MP 117047.jpg",
-          name: "Beige MP117047",
+          image: "/images/categories/royal-classic/1.jpg",
+          name: "Stud Green RC21050",
         },
         {
-          image: "/images/categories/majesty-pro/MP117005.jpg",
-          name: "Natural MP117005",
+          image: "/images/categories/royal-classic/2.jpg",
+          name: "Beige RC21047",
         },
         {
-          image: "/images/categories/majesty-pro/MP117048.jpg",
-          name: "Reddish Brown MP117048",
+          image: "/images/categories/royal-classic/3.jpg",
+          name: "Chrome Yellow RC21036",
         },
         {
-          image: "/images/categories/majesty-pro/MP351013.jpg",
-          name: "Cream MP351013",
+          image: "/images/categories/royal-classic/4.jpg",
+          name: "Beige RC22047",
         },
         {
-          image: "/images/categories/majesty-pro/MP353039.jpg",
-          name: "Burnt Orange MP351039",
+          image: "/images/categories/royal-classic/5.jpg",
+          name: "R Brown RC12048",
         },
         {
-          image: "/images/categories/majesty-pro/MP351985.jpg",
-          name: "CN Natural MP351985",
+          image: "/images/categories/royal-classic/6.jpg",
+          name: "Cream RC12013",
         },
         {
-          image: "/images/categories/majesty-pro/MP301008.jpg",
-          name: "Dark Beige MP301008",
+          image: "/images/categories/royal-classic/7.jpg",
+          name: "Natural RC175005",
         },
         {
-          image: "/images/categories/majesty-pro/MP305008.jpg",
-          name: "Dark Beige MP305008",
+          image: "/images/categories/royal-classic/8.jpg",
+          name: "Beige RC175047",
         },
         {
-          image: "/images/categories/majesty-pro/MP305047.jpg",
-          name: "Beige MP305047",
+          image: "/images/categories/royal-classic/9.jpg",
+          name: "R Brown RC175048",
         },
         {
-          image: "/images/categories/majesty-pro/MP303013.jpg",
-          name: "Cream MP303013",
+          image: "/images/categories/royal-classic/10.jpg",
+          name: "Dark Beige RC175008",
         },
         {
-          image: "/images/categories/majesty-pro/MP305037.jpg",
-          name: "Brown MP305037",
+          image: "/images/categories/royal-classic/11.jpg",
+          name: "R Brown RC13048",
         },
         {
-          image: "/images/categories/majesty-pro/MP305955.jpg",
-          name: "C Rosewood MP305955",
+          image: "/images/categories/royal-classic/12.jpg",
+          name: "Natural RC13005",
         },
         {
-          image: "/images/categories/majesty-pro/MP353004.jpg",
-          name: "Light Beige MP353004",
+          image: "/images/categories/royal-classic/13.jpg",
+          name: "Almond Brown RC13068",
         },
         {
-          image: "/images/categories/majesty-pro/MP353037.jpg",
-          name: "Brown MP353037",
+          image: "/images/categories/royal-classic/14.jpg",
+          name: "Cream RC15013",
         },
         {
-          image: "/images/categories/majesty-pro/MP353039.jpg",
-          name: "Burnt Orange MP353039",
+          image: "/images/categories/royal-classic/15.jpg",
+          name: "Burnt Orange RC15039",
+        },
+        {
+          image: "/images/categories/royal-classic/16.jpg",
+          name: "Natural RC26005",
+        },
+        {
+          image: "/images/categories/royal-classic/17.jpg",
+          name: "Chrome Yellow RC26036",
         },
       ],
     },
     {
-      type: "Majesty-Pro",
-      title: "Majesty Pro",
+      type: "Majesty",
+      title: "Majesty",
+      name: "Majesty",
+      bannerImg: "/images/categories/Majesty-Banner.png",
       content: [
         {
           para: "Hardwearing Vinyl Floor covering in elegant and realistic wood designs",
         },
         {
-          para: "0.7 mm pure PVC transparent wear layer",
-        },
-        {
-          para: "PU coating for easy and low cost maintenance",
-        },
-        {
           para: "Excellent resistance to scratches, abrasion, soiling and staining.",
         },
-
         {
-          para: "Glass fibre scrim for dimensional stability",
-        },
-        {
-          para: "Ideal for domestic and semi-commercial use",
+          para: "Ideal for showroom, HOTELS and leisure enviroments",
         },
       ],
       suitable: [
@@ -1506,92 +1544,443 @@ const VinylnnerApplication = () => {
 
       applications: [
         {
-          image: "/images/categories/majesty-pro/MP 117047.jpg",
-          name: "Beige MP117047",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP117005.jpg",
-          name: "Natural MP117005",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP117048.jpg",
-          name: "Reddish Brown MP117048",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP351013.jpg",
-          name: "Cream MP351013",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP353039.jpg",
-          name: "Burnt Orange MP351039",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP351985.jpg",
-          name: "CN Natural MP351985",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP301008.jpg",
-          name: "Dark Beige MP301008",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP305008.jpg",
-          name: "Dark Beige MP305008",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP305047.jpg",
-          name: "Beige MP305047",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP303013.jpg",
-          name: "Cream MP303013",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP305037.jpg",
-          name: "Brown MP305037",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP305955.jpg",
-          name: "C Rosewood MP305955",
-        },
-        {
-          image: "/images/categories/majesty-pro/MP353004.jpg",
+          image: "/images/categories/majesty/1.jpg",
           name: "Light Beige MP353004",
         },
         {
-          image: "/images/categories/majesty-pro/MP353037.jpg",
+          image: "/images/categories/majesty/2.jpg",
           name: "Brown MP353037",
         },
         {
-          image: "/images/categories/majesty-pro/MP353039.jpg",
+          image: "/images/categories/majesty/3.jpg",
           name: "Burnt Orange MP353039",
+        },
+        {
+          image: "/images/categories/majesty/4.jpg",
+          name: "Dark Beige MP305008",
+        },
+        {
+          image: "/images/categories/majesty/5.jpg",
+          name: "Beige MP305047",
+        },
+        {
+          image: "/images/categories/majesty/6.jpg",
+          name: "Brown MP305037",
+        },
+        {
+          image: "/images/categories/majesty/7.jpg",
+          name: "C Rosewood MP305955",
+        },
+        {
+          image: "/images/categories/majesty/8.jpg",
+          name: "Beige MP117047",
+        },
+        {
+          image: "/images/categories/majesty/9.jpg",
+          name: "Natural MP117005",
+        },
+        {
+          image: "/images/categories/majesty/10.jpg",
+          name: "Ddish Brown MP117048",
+        },
+        {
+          image: "/images/categories/majesty/11.jpg",
+          name: "Opal Grey MJ352002",
+        },
+        {
+          image: "/images/categories/majesty/12.jpg",
+          name: "Cream MP351013",
+        },
+        {
+          image: "/images/categories/majesty/13.jpg",
+          name: "Burnt Orange MP351039",
+        },
+        {
+          image: "/images/categories/majesty/14.jpg",
+          name: "CN Natural MP351985",
+        },
+        {
+          image: "/images/categories/majesty/15.jpg",
+          name: "Opal Blue MJ352010",
         },
       ],
     },
     {
-      type: "Majesty-Pro",
-      title: "Majesty Pro",
+      type: "Printed-Flooring",
+      title: "Printed",
+      spanTitle: "Flooring",
+      name: "Printed Flooring",
+      bannerImg: "/images/categories/Printed-Flooring-Banner.png",
       content: [
         {
-          para: "Hardwearing Vinyl Floor covering in elegant and realistic wood designs",
+          para: "Vast collection of over 300 references",
         },
         {
-          para: "0.7 mm pure PVC transparent wear layer",
+          para: "Designs inculde Floral, Wooden, Geometric shapes, Stones, etc",
         },
         {
-          para: "PU coating for easy and low cost maintenance",
+          para: "Comes in various thickness ranging 0.40 mm to 0.65 mm",
         },
+      ],
+      suitable: [
         {
-          para: "Excellent resistance to scratches, abrasion, soiling and staining.",
+          name: "Residential",
+          image: "/images/icons/residential.png",
+          link: "/vinyl-flooring/residential",
         },
+      ],
 
+      applications: [
+        {
+          image: "/images/categories/printed/1.jpg",
+          name: "Beige PR188047",
+        },
+        {
+          image: "/images/categories/printed/2.jpg",
+          name: "C Brown PR14979",
+        },
+        {
+          image: "/images/categories/printed/3.jpg",
+          name: "Natural PR190005",
+        },
+        {
+          image: "/images/categories/printed/4.jpg",
+          name: "Cedar Natural PR172005",
+        },
+        {
+          image: "/images/categories/printed/5.jpg",
+          name: "Light Beige PR198004",
+        },
+        {
+          image: "/images/categories/printed/6.jpg",
+          name: "Light Brown PR167953",
+        },
+        {
+          image: "/images/categories/printed/7.jpg",
+          name: "C.C.Yellow PR177983",
+        },
+        {
+          image: "/images/categories/printed/8.jpg",
+          name: "Light Beige PR206004",
+        },
+        {
+          image: "/images/categories/printed/9.jpg",
+          name: "C.C.Yellow PR54983",
+        },
+        {
+          image: "/images/categories/printed/10.jpg",
+          name: "C.C.Yellow PR192983",
+        },
+        {
+          image: "/images/categories/printed/11.jpg",
+          name: "Grey PR168002",
+        },
+        {
+          image: "/images/categories/printed/12.jpg",
+          name: "Beige PR119047",
+        },
+        {
+          image: "/images/categories/printed/13.jpg",
+          name: "Grey PR203002",
+        },
+        {
+          image: "/images/categories/printed/14.jpg",
+          name: "Brown PR51037",
+        },
+        {
+          image: "/images/categories/printed/15.jpg",
+          name: "Black PR205051",
+        },
+        {
+          image: "/images/categories/printed/16.jpg",
+          name: "Beige PR202047",
+        },
+        {
+          image: "/images/categories/printed/17.jpg",
+          name: "Blue PR60010",
+        },
+        {
+          image: "/images/categories/printed/18.jpg",
+          name: "Natural PR179005",
+        },
+        {
+          image: "/images/categories/printed/19.jpg",
+          name: "Beige PR17047",
+        },
+        {
+          image: "/images/categories/printed/20.jpg",
+          name: "Brick Gold PR191099",
+        },
+        {
+          image: "/images/categories/printed/21.jpg",
+          name: "Beige PR166047",
+        },
+        {
+          image: "/images/categories/printed/22.jpg",
+          name: "Natural PR029005",
+        },
+        {
+          image: "/images/categories/printed/23.jpg",
+          name: "C.Rosewood PR151955",
+        },
+        {
+          image: "/images/categories/printed/24.jpg",
+          name: "Green PR142041",
+        },
+        {
+          image: "/images/categories/printed/25.jpg",
+          name: "Green PR041041",
+        },
+        {
+          image: "/images/categories/printed/26.jpg",
+          name: "C.Black PR196988",
+        },
+        {
+          image: "/images/categories/printed/27.jpg",
+          name: "Beige PR133047",
+        },
+        {
+          image: "/images/categories/printed/28.jpg",
+          name: "Cream PR204013",
+        },
+        {
+          image: "/images/categories/printed/29.jpg",
+          name: "Burnt Orange PR032039",
+        },
+        {
+          image: "/images/categories/printed/30.jpg",
+          name: "C.C.Yellow PR94983",
+        },
+        {
+          image: "/images/categories/printed/31.jpg",
+          name: "C.C.Yellow PR93983",
+        },
+        {
+          image: "/images/categories/printed/32.jpg",
+          name: "C.C.Yellow PR165983",
+        },
+      ],
+    },
+    {
+      type: "Tuff",
+      title: "Tuff",
+      name: "Tuff",
+      bannerImg: "/images/categories/Tuff-Banner.png",
+      content: [
+        {
+          para: "Flexible PVC flooring in light marbleised designs",
+        },
+        {
+          para: "Available in tile and roll form in different thickness",
+        },
+        {
+          para: "Value for money option for low to medium traffic areas",
+        },
+      ],
+      suitable: [
+        {
+          name: "Offices/Retail",
+          image: "/images/icons/workspace.png",
+          link: "/vinyl-flooring/offices-retail",
+        },
+        {
+          name: "Hospitality",
+          image: "/images/icons/hospital.png",
+          link: "/vinyl-flooring/hospitality",
+        },
+      ],
+
+      applications: [
+        {
+          image: "/images/categories/tuff/1.jpg",
+          name: "Ivory TF2070",
+        },
+        {
+          image: "/images/categories/tuff/2.jpg",
+          name: "Ocean Blue TF2029",
+        },
+        {
+          image: "/images/categories/tuff/3.jpg",
+          name: "Beige TF2047",
+        },
+        {
+          image: "/images/categories/tuff/4.jpg",
+          name: "Harvest Green TF2085",
+        },
+        {
+          image: "/images/categories/tuff/5.jpg",
+          name: "Craft Brown TF2073",
+        },
+        {
+          image: "/images/categories/tuff/6.jpg",
+          name: "Steel Grey D TF2074",
+        },
+        {
+          image: "/images/categories/tuff/7.jpg",
+          name: "Copper Gold TF2099",
+        },
+        {
+          image: "/images/categories/tuff/8.jpg",
+          name: "Slate Grey TF2078",
+        },
+        {
+          image: "/images/categories/tuff/9.jpg",
+          name: "Wine Red TF2088",
+        },
+        {
+          image: "/images/categories/tuff/10.jpg",
+          name: "P.O.Red TF2094",
+        },
+      ],
+    },
+    {
+      type: "Suprema-RS",
+      title: "Suprema",
+      spanTitle: "RS",
+      name: "Suprema RS",
+      bannerImg: "/images/categories/Suprema-rs-Banner.png",
+      content: [
+        {
+          para: "1 mm homogenous wear layer provides long-life slip resistance with a deep inlay of silicon carbide granules and color chips",
+        },
+        {
+          para: "Excellent resistance to scratches, abrasion, soiling and staining",
+        },
         {
           para: "Glass fibre scrim for dimensional stability",
         },
         {
-          para: "Ideal for domestic and semi-commercial use",
+          para: "Non-woven backing enhances sub-floor adhesion",
         },
       ],
       suitable: [
+        {
+          name: "Offices/Retail",
+          image: "/images/icons/workspace.png",
+          link: "/vinyl-flooring/offices-retail",
+        },
+        {
+          name: "Hospitality",
+          image: "/images/icons/hospital.png",
+          link: "/vinyl-flooring/hospitality",
+        },
+        {
+          name: "Transport",
+          image: "/images/icons/truck.png",
+          link: "/vinyl-flooring/transport",
+        },
+      ],
+
+      applications: [
+        {
+          image: "/images/categories/suprema/1.jpg",
+          name: "Pink Embrace RU2625",
+        },
+        {
+          image: "/images/categories/suprema/2.jpg",
+          name: "Ice Grey RU2627",
+        },
+        {
+          image: "/images/categories/suprema/3.jpg",
+          name: "Grazing Land RU2629",
+        },
+        {
+          image: "/images/categories/suprema/4.jpg",
+          name: "Splash RU2630",
+        },
+        {
+          image: "/images/categories/suprema/5.jpg",
+          name: "Weathered White RU2623",
+        },
+        {
+          image: "/images/categories/suprema/6.jpg",
+          name: "Silk Route RU2622",
+        },
+        {
+          image: "/images/categories/suprema/7.jpg",
+          name: "Roman Clay RU2628",
+        },
+        {
+          image: "/images/categories/suprema/8.jpg",
+          name: "Crimson Depth RU2150",
+        },
+        {
+          image: "/images/categories/suprema/9.jpg",
+          name: "Indian Earth RD2606",
+        },
+        {
+          image: "/images/categories/suprema/10.jpg",
+          name: "Beige RD2601",
+        },
+        {
+          image: "/images/categories/suprema/11.jpg",
+          name: "Peach Sky RD2605",
+        },
+        {
+          image: "/images/categories/suprema/12.jpg",
+          name: "Terracotta RD2612",
+        },
+        {
+          image: "/images/categories/suprema/13.jpg",
+          name: "Maroon RD2608",
+        },
+        {
+          image: "/images/categories/suprema/14.jpg",
+          name: "Ocean Breeze RD2611",
+        },
+        {
+          image: "/images/categories/suprema/15.jpg",
+          name: "Rainforest RD2610",
+        },
+        {
+          image: "/images/categories/suprema/16.jpg",
+          name: "Winter Sea RD2602",
+        },
+        {
+          image: "/images/categories/suprema/17.jpg",
+          name: "Winter Moon RD2609",
+        },
+        {
+          image: "/images/categories/suprema/18.jpg",
+          name: "Silver Sand RD2604",
+        },
+        {
+          image: "/images/categories/suprema/19.jpg",
+          name: "Lighting Sky RD2603",
+        },
+      ],
+    },
+    {
+      type: "Standard-RS",
+      title: "Standard",
+      spanTitle: "RS",
+      name: "Standard RS",
+      bannerImg: "/images/categories/Standard RS-Banner.png",
+      content: [
+        {
+          para: "1 mm homogenous wear layer provides long-life slip resistance with a deep inlay of silicon carbide granules",
+        },
+        {
+          para: "Excellent resistance to scratches, abrasion, soiling and staining",
+        },
+        {
+          para: "Glass fibre scrim for dimensional stability",
+        },
+        {
+          para: "Non-woven backing enhances sub-floor adhesion (optional)",
+        },
+      ],
+      suitable: [
+        {
+          name: "Education",
+          image: "/images/icons/image 59.png",
+          link: "/vinyl-flooring/education",
+        },
+        {
+          name: "Healthcare",
+          image: "/images/icons/image 62.png",
+          link: "/vinyl-flooring/healthcare",
+        },
         {
           name: "Residential",
           image: "/images/icons/residential.png",
@@ -1611,64 +2000,398 @@ const VinylnnerApplication = () => {
 
       applications: [
         {
-          image: "/images/categories/majesty-pro/MP 117047.jpg",
-          name: "Beige MP117047",
+          image: "/images/categories/standard/1.jpg",
+          name: "Beige RD2601",
         },
         {
-          image: "/images/categories/majesty-pro/MP117005.jpg",
-          name: "Natural MP117005",
+          image: "/images/categories/standard/2.jpg",
+          name: "Peach Sky RD2605",
         },
         {
-          image: "/images/categories/majesty-pro/MP117048.jpg",
-          name: "Reddish Brown MP117048",
+          image: "/images/categories/standard/3.jpg",
+          name: "Terracotta RD2612",
         },
         {
-          image: "/images/categories/majesty-pro/MP351013.jpg",
-          name: "Cream MP351013",
+          image: "/images/categories/standard/4.jpg",
+          name: "Maroon RD2608",
         },
         {
-          image: "/images/categories/majesty-pro/MP353039.jpg",
-          name: "Burnt Orange MP351039",
+          image: "/images/categories/standard/5.jpg",
+          name: "Ocean Breeze RD2611",
         },
         {
-          image: "/images/categories/majesty-pro/MP351985.jpg",
-          name: "CN Natural MP351985",
+          image: "/images/categories/standard/6.jpg",
+          name: "Rainforest RD2610",
         },
         {
-          image: "/images/categories/majesty-pro/MP301008.jpg",
-          name: "Dark Beige MP301008",
+          image: "/images/categories/standard/7.jpg",
+          name: "Winter Sea RD2602",
         },
         {
-          image: "/images/categories/majesty-pro/MP305008.jpg",
-          name: "Dark Beige MP305008",
+          image: "/images/categories/standard/8.jpg",
+          name: "Winter Moon RD2609",
         },
         {
-          image: "/images/categories/majesty-pro/MP305047.jpg",
-          name: "Beige MP305047",
+          image: "/images/categories/standard/9.jpg",
+          name: "Silver Sand RD2604",
         },
         {
-          image: "/images/categories/majesty-pro/MP303013.jpg",
-          name: "Cream MP303013",
+          image: "/images/categories/standard/10.jpg",
+          name: "Lighting Sky RD2603",
         },
         {
-          image: "/images/categories/majesty-pro/MP305037.jpg",
-          name: "Brown MP305037",
+          image: "/images/categories/standard/11.jpg",
+          name: "Indian Earth RD2606",
+        },
+      ],
+    },
+    {
+      type: "Sonata",
+      title: "Sonata",
+      name: "Sonata",
+      bannerImg: "/images/categories/Sonata-Banner.png",
+      content: [
+        {
+          para: "Sonata is the perfect solution for the discerning bus and coach builders and fleet owners who want flooring to be utmost safe yet aesthetically pleasing",
         },
         {
-          image: "/images/categories/majesty-pro/MP305955.jpg",
-          name: "C Rosewood MP305955",
+          para: "1 mm homogenous wear layer provides long-life slip resistance with a deep inlay of silicon carbide granules and color chips",
         },
         {
-          image: "/images/categories/majesty-pro/MP353004.jpg",
-          name: "Light Beige MP353004",
+          para: "Excellent resistance to scratches, abrasion, soiling and staining",
         },
         {
-          image: "/images/categories/majesty-pro/MP353037.jpg",
-          name: "Brown MP353037",
+          para: "Glass fibre scrim for dimensional stability",
         },
         {
-          image: "/images/categories/majesty-pro/MP353039.jpg",
-          name: "Burnt Orange MP353039",
+          para: "Non-woven backing enhances sub-floor adhesion",
+        },
+      ],
+      suitable: [
+        {
+          name: "Hospitality",
+          image: "/images/icons/hospital.png",
+          link: "/vinyl-flooring/hospitality",
+        },
+        {
+          name: "Transport",
+          image: "/images/icons/truck.png",
+          link: "/vinyl-flooring/transport",
+        },
+      ],
+
+      applications: [
+        {
+          image: "/images/categories/sonata/1.jpg",
+          name: "Navy Blue ST2032",
+        },
+        {
+          image: "/images/categories/sonata/2.jpg",
+          name: "Light Blue ST2152",
+        },
+        {
+          image: "/images/categories/sonata/3.jpg",
+          name: "Alert Yellow ST2011",
+        },
+        {
+          image: "/images/categories/sonata/4.jpg",
+          name: "Earthen Brown ST2151",
+        },
+        {
+          image: "/images/categories/sonata/5.jpg",
+          name: "Korunde Grey ST2201",
+        },
+        {
+          image: "/images/categories/sonata/6.jpg",
+          name: "Grey ST2002",
+        },
+        {
+          image: "/images/categories/sonata/7.jpg",
+          name: "Dark Grey ST2147",
+        },
+        {
+          image: "/images/categories/sonata/8.jpg",
+          name: "Green ST2041",
+        },
+        {
+          image: "/images/categories/sonata/9.jpg",
+          name: "Beige ST2047",
+        },
+        {
+          image: "/images/categories/sonata/10.jpg",
+          name: "Rustic Brown ST3000",
+        },
+        {
+          image: "/images/categories/sonata/11.jpg",
+          name: "Craft Brown ST2073",
+        },
+        {
+          image: "/images/categories/sonata/12.jpg",
+          name: "Terracotta ST2957",
+        },
+        {
+          image: "/images/categories/sonata/13.jpg",
+          name: "Electricity RU2621",
+        },
+        {
+          image: "/images/categories/sonata/14.jpg",
+          name: "Blue Pottery RU2620",
+        },
+        {
+          image: "/images/categories/sonata/15.jpg",
+          name: "Tidal Wave RU2626",
+        },
+        {
+          image: "/images/categories/sonata/16.jpg",
+          name: "Mystic Green RU2624",
+        },
+      ],
+    },
+    {
+      type: "Eco-Plus-V",
+      title: "Eco",
+      spanTitle: "Plus V",
+      name: "Eco Plus V",
+      bannerImg: "/images/categories/Ecoplus-V-Banner.png",
+      content: [
+        {
+          para: "Ecoplus V is a Value for money transport flooring option with 500 microns wear layer with silicon carbide granules for slip resistance and colourful chips for better aesthetics",
+        },
+        {
+          para: "Excellent resistance to scratches, abrasion, soiling and staining",
+        },
+
+        {
+          para: "Non-woven backing enhances sub-floor adhesion",
+        },
+      ],
+      suitable: [
+        {
+          name: "Hospitality",
+          image: "/images/icons/hospital.png",
+          link: "/vinyl-flooring/hospitality",
+        },
+        {
+          name: "Transport",
+          image: "/images/icons/truck.png",
+          link: "/vinyl-flooring/transport",
+        },
+      ],
+
+      applications: [
+        {
+          image: "/images/categories/eco/1.jpg",
+          name: "Beige EV2047",
+        },
+        {
+          image: "/images/categories/eco/2.jpg",
+          name: "Craft Brown EV2073",
+        },
+        {
+          image: "/images/categories/eco/3.jpg",
+          name: "Earthen Brown EV2151",
+        },
+        {
+          image: "/images/categories/eco/4.jpg",
+          name: "Korunde Rustic Brown EV2703",
+        },
+        {
+          image: "/images/categories/eco/5.jpg",
+          name: "Korude Green EV2707",
+        },
+        {
+          image: "/images/categories/eco/6.jpg",
+          name: "Green EV2041",
+        },
+        {
+          image: "/images/categories/eco/7.jpg",
+          name: "Emerald Green EV2705",
+        },
+        {
+          image: "/images/categories/eco/8.jpg",
+          name: "Rustic Brown EV3000",
+        },
+        {
+          image: "/images/categories/eco/9.jpg",
+          name: "Horizon Grey EV2407",
+        },
+        {
+          image: "/images/categories/eco/10.jpg",
+          name: "Rain Cloud EV2701",
+        },
+        {
+          image: "/images/categories/eco/11.jpg",
+          name: "Korunde Grey EV2201",
+        },
+        {
+          image: "/images/categories/eco/12.jpg",
+          name: "Korunde Blue EV2703",
+        },
+        {
+          image: "/images/categories/eco/13.jpg",
+          name: "Scuba Blue EV2702",
+        },
+        {
+          image: "/images/categories/eco/14.jpg",
+          name: "Navy Blue EV2032",
+        },
+      ],
+    },
+    {
+      type: "Gripper",
+      title: "Gripper",
+      name: "Gripper",
+      bannerImg: "/images/categories/Gripper-Banner.png",
+      content: [
+        {
+          para: "Anti-skid Vinyl Flooring option suitable for bus application, Airports, Floor mats for automobiles etc.",
+        },
+        {
+          para: "Various emboss options such as Stud, Chequered, Ultra, Diamond and Football",
+        },
+        {
+          para: "Available in various color options to match the various interiors",
+        },
+        {
+          para: "Non woven polyester (Optional) backing qualities also available",
+        },
+      ],
+      suitable: [
+        {
+          name: "Transport",
+          image: "/images/icons/truck.png",
+          link: "/vinyl-flooring/transport",
+        },
+      ],
+
+      applications: [
+        {
+          image: "/images/categories/gripper/1.jpg",
+          name: "Stud Green KD2041",
+        },
+        {
+          image: "/images/categories/gripper/2.jpg",
+          name: "Brick Gold KD2099",
+        },
+        {
+          image: "/images/categories/gripper/3.jpg",
+          name: "Stud Blue KD2010",
+        },
+        {
+          image: "/images/categories/gripper/4.jpg",
+          name: "Stud Black KD2051",
+        },
+        {
+          image: "/images/categories/gripper/5.jpg",
+          name: "Stud Yellow KD2011",
+        },
+        {
+          image: "/images/categories/gripper/6.jpg",
+          name: "Stud Dark Grey KD2147",
+        },
+        {
+          image: "/images/categories/gripper/7.jpg",
+          name: "Light Grey KD2038",
+        },
+        {
+          image: "/images/categories/gripper/8.jpg",
+          name: "Stud White KD2001",
+        },
+        {
+          image: "/images/categories/gripper/9.jpg",
+          name: "Stud Ocean Blue KD2029",
+        },
+        {
+          image: "/images/categories/gripper/10.jpg",
+          name: "Diamond Black DA2051",
+        },
+        {
+          image: "/images/categories/gripper/11.jpg",
+          name: "Diamond Dark Grey DA2147",
+        },
+        {
+          image: "/images/categories/gripper/12.jpg",
+          name: "Football Black KF2051",
+        },
+        {
+          image: "/images/categories/gripper/13.jpg",
+          name: "Football Craft Brown KF2073",
+        },
+        {
+          image: "/images/categories/gripper/14.jpg",
+          name: "Football Dark Grey KF2147",
+        },
+        {
+          image: "/images/categories/gripper/15.jpg",
+          name: "Ultra Rustic Brown GU3000",
+        },
+        {
+          image: "/images/categories/gripper/16.jpg",
+          name: "Ultra Grey GU2204",
+        },
+        {
+          image: "/images/categories/gripper/17.jpg",
+          name: "Ultra Terracotta GU2957V",
+        },
+        {
+          image: "/images/categories/gripper/18.jpg",
+          name: "Ultra Navy Blue GU2032",
+        },
+        {
+          image: "/images/categories/gripper/19.jpg",
+          name: "Chequered Ocean Blue KC2029",
+        },
+        {
+          image: "/images/categories/gripper/20.jpg",
+          name: "Chequered Brick Gold KC2099",
+        },
+        {
+          image: "/images/categories/gripper/21.jpg",
+          name: "Chequered Steel Grey KC2078",
+        },
+        {
+          image: "/images/categories/gripper/22.jpg",
+          name: "Chequered Pearl White KC2143",
+        },
+        {
+          image: "/images/categories/gripper/23.jpg",
+          name: "Chequered Black KC2051",
+        },
+        {
+          image: "/images/categories/gripper/24.jpg",
+          name: "Stud Black GD2051",
+        },
+        {
+          image: "/images/categories/gripper/25.jpg",
+          name: "Ultra Black GU2051",
+        },
+        {
+          image: "/images/categories/gripper/26.jpg",
+          name: "Stud Korunde Grey GD2201",
+        },
+        {
+          image: "/images/categories/gripper/27.jpg",
+          name: "Stud Terracotta GD2957",
+        },
+        {
+          image: "/images/categories/gripper/28.jpg",
+          name: "Stud Korunde Black GD2202",
+        },
+        {
+          image: "/images/categories/gripper/29.jpg",
+          name: "Stud Korunde Blue GD2203",
+        },
+        {
+          image: "/images/categories/gripper/30.jpg",
+          name: "Stud Grey GD2204",
+        },
+        {
+          image: "/images/categories/gripper/31.jpg",
+          name: "Stud Ocean Blue GD2029",
+        },
+        {
+          image: "/images/categories/gripper/32.jpg",
+          name: "Stud Navy Blue GD2032",
         },
       ],
     },
@@ -1685,8 +2408,8 @@ const VinylnnerApplication = () => {
   }
 
   const bannerData = {
-    bannerImg: "/images/banners/collage.png",
-    title: selectedCategory?.title || "Default Title", // Ensure it doesn't break if selectedCategory is undefined
+    bannerImg: selectedCategory.bannerImg,
+    title: selectedCategory?.name || "Default Title", // Ensure it doesn't break if selectedCategory is undefined
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
       { label: "Vinyl Flooring", path: "/vinyl-flooring", active: false },
@@ -1707,7 +2430,11 @@ const VinylnnerApplication = () => {
           <div className="row">
             <div className="col-lg-4">
               <h2 className="title new-title text-start pt-0">
-                <span className="yellow-title">{selectedCategory.title}</span>
+                {" "}
+                {selectedCategory.title} {""}
+                <span className="yellow-title">
+                  {selectedCategory.spanTitle}
+                </span>
                 {""}
               </h2>
             </div>
@@ -1729,7 +2456,7 @@ const VinylnnerApplication = () => {
         <div className="container">
           <div className="row">
             {selectedCategory.applications.map((application, index) => (
-              <div className="col-lg-2 mt-4" key={index}>
+              <div className="col-lg-2 col-md-6 col-12 mt-4" key={index}>
                 <NavLink to={application.innerCategory}>
                   <div className="single-application-div">
                     <div className="single-application-img">
@@ -1790,7 +2517,7 @@ const VinylnnerApplication = () => {
           <h3 className="suitable-for-title">Suitable For</h3>
           <div className="row">
             {selectedCategory?.suitable?.map((suitable, index) => (
-              <div className="col-lg-2 mt-4" key={index}>
+              <div className="col-lg-2 col-md-6 col-6 mt-4" key={index}>
                 <NavLink to={suitable.link}>
                   <div className="suitable-div">
                     <img
