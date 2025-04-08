@@ -10,6 +10,7 @@ const CoatedApplications = () => {
       title: "Residential & ",
       spanTitle: "Contract Furnishing",
       name: "Residential & Contract Furnishing",
+      bannerImg: "/images/coated-fabrics/Banner-6.jpg",
       para: "Our comprehensive range of specialized & customized coated fabrics have been a huge success in modern furniture design",
       applications: [
         {
@@ -30,6 +31,7 @@ const CoatedApplications = () => {
       type: "Automotive",
       title: "Automotive",
       name: "Automotive",
+      bannerImg: "/images/coated-fabrics/banner-2.jpg",
       para: "We are a pioneer in the business of supplying performance-based coated fabrics to the automotive industry",
       applications: [
         {
@@ -51,6 +53,7 @@ const CoatedApplications = () => {
       title: "Two",
       spanTitle: "Wheelers",
       name: "Two Wheelers",
+      bannerImg: "/images/coated-fabrics/banner-1.jpg",
       para: "We manufacture & supply specialized 2-wheeler seat cover coated fabrics to make every ride joyful",
       applications: [
         {
@@ -81,6 +84,7 @@ const CoatedApplications = () => {
       title: "Marine & ",
       spanTitle: "Recreational Vehicles",
       name: "Marine & Recreational Vehicles",
+      bannerImg: "/images/coated-fabrics/banner-10.jpg",
       para: "We manufacture & supply specialized coated fabrics that endure the harsh conditions present on commercial & recreational vessels",
       applications: [
         {
@@ -108,6 +112,7 @@ const CoatedApplications = () => {
       type: "Healthcare",
       title: "Healthcare",
       name: "Healthcare",
+      bannerImg: "/images/coated-fabrics/banner-8.jpg",
       para: "Manufacturing and supplying specialized & customized coated fabrics which meet the demanding requirements of the healthcare industry is our forte",
       applications: [
         {
@@ -148,6 +153,7 @@ const CoatedApplications = () => {
       type: "Footwear",
       title: "Footwear",
       name: "Footwear",
+      bannerImg: "/images/coated-fabrics/shoes-banner.jpg",
       para: "With our special range of coated fabrics designed for the footwear industry, we have emerged as an industry-leading brand",
       applications: [
         {
@@ -175,6 +181,7 @@ const CoatedApplications = () => {
       type: "Fashion",
       title: "Fashion",
       name: "Fashion",
+      bannerImg: "/images/coated-fabrics/banner-3.jpg",
       para: "We manufacture, supply & export world-class coated fabrics for a variety of fashion accessories",
       applications: [
         {
@@ -210,7 +217,7 @@ const CoatedApplications = () => {
   }
 
   const bannerData = {
-    bannerImg: "/images/banners/collage.png",
+    bannerImg: selectedCategory.bannerImg,
     title: selectedCategory?.name || "Default Title", // Ensure it doesn't break if selectedCategory is undefined
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
