@@ -7,7 +7,9 @@ const CoatedApplications = () => {
   const applicationData = [
     {
       type: "residential-contract-furnishing",
-      title: "Residential & Contract Furnishing",
+      title: "Residential & ",
+      spanTitle: "Contract Furnishing",
+      name: "Residential & Contract Furnishing",
       para: "Our comprehensive range of specialized & customized coated fabrics have been a huge success in modern furniture design",
       applications: [
         {
@@ -27,6 +29,7 @@ const CoatedApplications = () => {
     {
       type: "Automotive",
       title: "Automotive",
+      name: "Automotive",
       para: "We are a pioneer in the business of supplying performance-based coated fabrics to the automotive industry",
       applications: [
         {
@@ -45,7 +48,9 @@ const CoatedApplications = () => {
     },
     {
       type: "Two-Wheelers",
-      title: "Two Wheelers",
+      title: "Two",
+      spanTitle: "Wheelers",
+      name: "Two Wheelers",
       para: "We manufacture & supply specialized 2-wheeler seat cover coated fabrics to make every ride joyful",
       applications: [
         {
@@ -73,7 +78,9 @@ const CoatedApplications = () => {
     },
     {
       type: "Marine-Recreational-Vehicles",
-      title: "Marine & Recreational Vehicles",
+      title: "Marine & ",
+      spanTitle: "Recreational Vehicles",
+      name: "Marine & Recreational Vehicles",
       para: "We manufacture & supply specialized coated fabrics that endure the harsh conditions present on commercial & recreational vessels",
       applications: [
         {
@@ -100,6 +107,7 @@ const CoatedApplications = () => {
     {
       type: "Healthcare",
       title: "Healthcare",
+      name: "Healthcare",
       para: "Manufacturing and supplying specialized & customized coated fabrics which meet the demanding requirements of the healthcare industry is our forte",
       applications: [
         {
@@ -139,6 +147,7 @@ const CoatedApplications = () => {
     {
       type: "Footwear",
       title: "Footwear",
+      name: "Footwear",
       para: "With our special range of coated fabrics designed for the footwear industry, we have emerged as an industry-leading brand",
       applications: [
         {
@@ -165,6 +174,7 @@ const CoatedApplications = () => {
     {
       type: "Fashion",
       title: "Fashion",
+      name: "Fashion",
       para: "We manufacture, supply & export world-class coated fabrics for a variety of fashion accessories",
       applications: [
         {
@@ -201,7 +211,7 @@ const CoatedApplications = () => {
 
   const bannerData = {
     bannerImg: "/images/banners/collage.png",
-    title: selectedCategory?.title || "Default Title", // Ensure it doesn't break if selectedCategory is undefined
+    title: selectedCategory?.name || "Default Title", // Ensure it doesn't break if selectedCategory is undefined
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
       { label: "Coated Fabrics", path: "/coated-fabrics", active: false },
@@ -220,7 +230,9 @@ const CoatedApplications = () => {
       <section className="vinyl-applications-section">
         <div className="container">
           <h2 className="title new-title text-center">
-            <span className="yellow-title">{selectedCategory.title}</span>
+            {" "}
+            {selectedCategory.title} {""}
+            <span className="yellow-title">{selectedCategory.spanTitle}</span>
             {""}
           </h2>
 

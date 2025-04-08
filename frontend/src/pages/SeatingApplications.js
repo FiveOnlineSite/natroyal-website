@@ -7,7 +7,9 @@ const SeatingApplications = () => {
   const applicationData = [
     {
       type: "Railway-Metro",
-      title: "Railway / Metro",
+      title: "Railway ",
+      spanTitle: "/ Metro",
+      name: "Railway / Metro",
       para: "Total solution from Designing, Proto Sample Development, Testing, Tooling, Manufacturing & Supply. SS & CS production through EN-15085-2 certified WELDING STANDARD and GLOBALLY in the club of 2540 company instated of EN – ISO 15609- :2004. Pipe bending products through Multi Axis CNC machine. In-house Design, Tool Room and R&D Centre",
       banner_video: "/images/seating/Metro.mp4",
       applications: [
@@ -44,6 +46,7 @@ const SeatingApplications = () => {
     {
       type: "Cinema",
       title: "Cinema",
+      name: "Cinema",
       banner_video: "/images/seating/cinema.mp4",
       applications: [
         {
@@ -67,6 +70,7 @@ const SeatingApplications = () => {
     {
       type: "Bus",
       title: "Bus",
+      name: "Bus",
       banner_img: "/images/banners/collage.png",
       applications: [
         {
@@ -101,7 +105,7 @@ const SeatingApplications = () => {
 
   const bannerData = {
     bannerImg: selectedCategory?.banner_img,
-    title: selectedCategory?.title || "Default Title", // Ensure it doesn't break if selectedCategory is undefined
+    title: selectedCategory?.name || "Default Title", // Ensure it doesn't break if selectedCategory is undefined
     bannerVideo: selectedCategory?.banner_video,
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
@@ -126,7 +130,9 @@ const SeatingApplications = () => {
       <section className="vinyl-applications-section">
         <div className="container">
           <h2 className="title new-title text-center">
-            <span className="yellow-title">{selectedCategory.title}</span>
+            {" "}
+            {selectedCategory.title} {""}
+            <span className="yellow-title">{selectedCategory.spanTitle}</span>
             {""}
           </h2>
           {selectedCategory.para && (
