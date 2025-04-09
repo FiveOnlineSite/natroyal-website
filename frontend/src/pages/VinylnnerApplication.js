@@ -2457,15 +2457,13 @@ const VinylnnerApplication = () => {
           <div className="row">
             {selectedCategory.applications.map((application, index) => (
               <div className="col-lg-2 col-md-6 col-12 mt-4" key={index}>
-                <NavLink to={application.innerCategory}>
-                  <div className="single-application-div">
-                    <div className="single-application-img">
-                      <img src={application.image} alt={application.name} />
-                    </div>
-
-                    <h4>{application.name}</h4>
+                <div className="single-application-div">
+                  <div className="single-application-img">
+                    <img src={application.image} alt={application.name} />
                   </div>
-                </NavLink>
+
+                  <h4>{application.name}</h4>
+                </div>
               </div>
             ))}
           </div>
