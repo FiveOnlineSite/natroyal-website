@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import Banner from "../components/Banner";
 
 const SeatingApplications = () => {
@@ -10,28 +10,70 @@ const SeatingApplications = () => {
       title: "Railway ",
       spanTitle: "/ Metro",
       name: "Railway / Metro",
-      para: "Total solution from Designing, Proto Sample Development, Testing, Tooling, Manufacturing & Supply. SS & CS production through EN-15085-2 certified WELDING STANDARD and GLOBALLY in the club of 2540 company instated of EN – ISO 15609- :2004. Pipe bending products through Multi Axis CNC machine. In-house Design, Tool Room and R&D Centre",
+      content: [
+        {
+          para: "Total solution from Designing, Proto Sample Development, Testing, Tooling, Manufacturing & Supply.",
+        },
+        {
+          para: "SS & CS production through EN-15085-2 certified WELDING STANDARD and GLOBALLY in the club of 2540 company instated of EN – ISO 15609- :2004",
+        },
+        {
+          para: "Pipe bending products through Multi Axis CNC machine",
+        },
+        {
+          para: "In-house Design, Tool Room and R&D Centre",
+        },
+      ],
+
       banner_video: "/images/seating/Metro.mp4",
       applications: [
         {
           step: "01",
-          image: "/images/applications/seating/NR SCD PPT 2024_082.png",
+          image: "/images/applications/seating/Group 3.png",
         },
         {
           step: "02",
-          image: "/images/applications/seating/NR SCD PPT 2024_079.png",
+          image: "/images/applications/seating/NR SCD PPT 2024_079 1.png",
         },
         {
           step: "03",
-          image: "/images/applications/seating/NR SCD PPT 2024_045 (1).png",
+          image: "/images/applications/seating/NR SCD PPT 2024_049 1 (1).png",
         },
         {
           step: "04",
-          image: "/images/applications/seating/NR SCD PPT 2024_076.png",
+          image: "/images/applications/seating/NR SCD PPT 2024_076 1.png",
         },
         {
           step: "05",
           image: "/images/applications/seating/1.png",
+        },
+        {
+          step: "06",
+          image: "/images/applications/seating/Train-Seat--2.png",
+        },
+        {
+          step: "07",
+          image: "/images/applications/seating/rail.jpg",
+        },
+        {
+          step: "08",
+          image: "/images/applications/seating/Train-Seat--3.png",
+        },
+        {
+          step: "09",
+          image: "/images/applications/seating/Train-Seat.png",
+        },
+        {
+          step: "10",
+          image: "/images/applications/seating/Train-Seat--4.png",
+        },
+        {
+          step: "11",
+          image: "/images/applications/seating/Train-Seat--5.png",
+        },
+        {
+          step: "12",
+          image: "/images/applications/seating/Train-Seat--6.png",
         },
         // {
         //   step: "06",
@@ -127,6 +169,34 @@ const SeatingApplications = () => {
         breadcrumbs={bannerData.breadcrumbs}
       />
 
+      <section className="applications-section">
+        <div className="container">
+          <div className="row">
+            <ul className="application-tabs d-flex align-items-center justify-content-center">
+              <li className="nav-item dropdown">
+                <NavLink
+                  className="nav-link"
+                  to="/seating-components/railway-metro"
+                >
+                  Railway/Metro
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/seating-components/bus">
+                  Bus
+                </NavLink>
+              </li>
+
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/seating-components/cinema">
+                  Cinema
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <section className="vinyl-applications-section">
         <div className="container">
           <h2 className="title new-title text-center">
@@ -135,10 +205,12 @@ const SeatingApplications = () => {
             <span className="yellow-title">{selectedCategory.spanTitle}</span>
             {""}
           </h2>
-          {selectedCategory.para && (
-            <p className="paragraph gray-para text-center">
-              {selectedCategory.para}
-            </p>
+          {selectedCategory.content && (
+            <ul className="paragraph gray-para text-start">
+              {selectedCategory.content.map((content, index) => (
+                <li> {content.para}</li>
+              ))}
+            </ul>
           )}
         </div>
       </section>

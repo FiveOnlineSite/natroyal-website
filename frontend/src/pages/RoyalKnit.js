@@ -66,7 +66,7 @@ const RoyalKnit = () => {
   const bannerData = [
     {
       // videoUrl: "/videos/1103522677-preview.mp4",
-      image: "/images/banners/black gap collage.png",
+      image: "/images/banners/Frame 1.png",
       text: "Where Softness Meets Strength – Premium Knitted Fabrics for Every Need!",
     },
   ];
@@ -106,7 +106,7 @@ const RoyalKnit = () => {
       tags: ["Dimensional Stability", "High Tensile Strength", "Upto 3 bar"],
     },
     {
-      image: "/images/sliders/b516bd0b-a2c3-4304-a541-b54ab0f284ce.jpg",
+      image: "/images/sliders/fire.jpg",
       name: "Fire Retardant Fabric",
       text: "These fabrics are engineered to resist ignition and prevent flames from spreading, making them essential for automotive and industrial applications.",
       tags: [
@@ -116,7 +116,7 @@ const RoyalKnit = () => {
       ],
     },
     {
-      image: "/images/sliders/e3562a94-330f-44fb-a784-dd29c39ddbc4.jpg",
+      image: "/images/sliders/image 2 (1).png",
       name: "Water Repellent Fabric",
       text: "Innovative fabrics designed for maximum water resistance.",
       tags: [
@@ -184,11 +184,11 @@ const RoyalKnit = () => {
 
   return (
     <Layout>
-      <section className="landing-banner-section">
+      <section className="landing-banner-section pb-5">
         <div className="slide-container">
           <div className="poster-container">
             <img
-              src="/images/banners/black gap collage.png"
+              src="/images/banners/Frame 1.png"
               alt="Poster"
               className="poster-image"
             />

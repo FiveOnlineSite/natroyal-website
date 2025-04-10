@@ -2397,6 +2397,125 @@ const VinylnnerApplication = () => {
     },
   ];
 
+  const applicationTabsData = [
+    {
+      category: "Education",
+      url: "/vinyl-flooring/education",
+      items: [
+        { name: "Moonwalk", url: "/moonwalk" },
+        { name: "Accord", url: "/accord" },
+        { name: "Mirakle", url: "/mirakle" },
+        { name: "Symphony", url: "/symphony" },
+        { name: "Startrek", url: "/startrek" },
+        { name: "Royal Star", url: "/royal-star" },
+        { name: "Elegant", url: "/elegant" },
+        { name: "Dazzle", url: "/dazzle" },
+        { name: "Nuplank", url: "/nuplank" },
+        { name: "Tiger", url: "/tiger" },
+        { name: "Avengers", url: "/avengers" },
+      ],
+    },
+    {
+      category: "Health Care",
+      url: "/vinyl-flooring/healthcare",
+      items: [
+        { name: "Moonwalk", url: "/moonwalk" },
+        { name: "Accord", url: "/accord" },
+        { name: "Mirakle", url: "/mirakle" },
+        { name: "Wally", url: "/wally" },
+        { name: "Startrek", url: "/startrek" },
+        { name: "Orbit", url: "/orbit" },
+        { name: "Royal Star", url: "/royal-star" },
+        { name: "Dazzle", url: "/dazzle" },
+        { name: "Nuplank", url: "/nuplank" },
+        { name: "Tiger", url: "/tiger" },
+        { name: "Avengers", url: "/avengers" },
+      ],
+    },
+    {
+      category: "Wet Areas",
+      url: "/vinyl-flooring/wet-areas",
+      items: [{ name: "Aqua RS", url: "/aqua-rs" }],
+    },
+    {
+      category: "Residential",
+      url: "/vinyl-flooring/residential",
+      items: [
+        { name: "Royal Star", url: "/royal-star" },
+        { name: "Moonwalk", url: "/moonwalk" },
+        { name: "Accord", url: "/accord" },
+        { name: "Majesty Pro", url: "/majesty-pro" },
+        { name: "Opera", url: "/opera" },
+        { name: "Elegant", url: "/elegant" },
+        { name: "Dazzle", url: "/dazzle" },
+        { name: "Royal Classic", url: "/royal-classic" },
+        { name: "Nuplank", url: "/nuplank" },
+        { name: "Mirakle", url: "/mirakle" },
+        { name: "Majesty", url: "/majesty" },
+        { name: "Printed Flooring", url: "/printed-flooring" },
+      ],
+    },
+    {
+      category: "Offices/Retail",
+      url: "/vinyl-flooring/offices-retail",
+      items: [
+        { name: "Moonwalk", url: "/moonwalk" },
+        { name: "Accord", url: "/accord" },
+        { name: "Mirakle", url: "/mirakle" },
+        { name: "Symphony", url: "/symphony" },
+        { name: "Startrek", url: "/startrek" },
+        { name: "Orbit", url: "/orbit" },
+        { name: "Suprema RS", url: "/suprema-rs" },
+        { name: "Standard RS", url: "/standard-rs" },
+        { name: "Aqua RS", url: "/aqua-rs" },
+        { name: "Royal Star", url: "/royal-star" },
+        { name: "Elegant", url: "/elegant" },
+        { name: "Dazzle", url: "/dazzle" },
+        { name: "Nuplank", url: "/nuplank" },
+        { name: "Majesty Pro", url: "/majesty-pro" },
+        { name: "Majesty", url: "/majesty" },
+        { name: "Royal Classic", url: "/royal-classic" },
+        { name: "Tiger", url: "/tiger" },
+        { name: "Avengers", url: "/avengers" },
+      ],
+    },
+    {
+      category: "Hospitality",
+      url: "/vinyl-flooring/hospitality",
+      items: [
+        { name: "Moonwalk", url: "/moonwalk" },
+        { name: "Accord", url: "/accord" },
+        { name: "Mirakle", url: "/mirakle" },
+        { name: "Tuff", url: "/tuff" },
+        { name: "Symphony", url: "/symphony" },
+        { name: "Startrek", url: "/startrek" },
+        { name: "Sonata", url: "/sonata" },
+        { name: "Suprema RS", url: "/suprema-rs" },
+        { name: "Standard RS", url: "/standard-rs" },
+        { name: "Aqua RS", url: "/aqua-rs" },
+        { name: "Eco Plus V", url: "/eco-plus-v" },
+        { name: "Royal Star", url: "/royal-star" },
+        { name: "Tiger", url: "/tiger" },
+        { name: "Avengers", url: "/avengers" },
+      ],
+    },
+    {
+      category: "Transport",
+      url: "/vinyl-flooring/transport",
+      items: [
+        { name: "Sonata", url: "/sonata" },
+        { name: "Suprema RS", url: "/suprema-rs" },
+        { name: "Eco Plus V", url: "/eco-plus-v" },
+        { name: "Gripper", url: "/gripper" },
+      ],
+    },
+    {
+      category: "Sports",
+      url: "/vinyl-flooring/sports",
+      items: [{ name: "Avengers", url: "/avengers" }],
+    },
+  ];
+
   const { innercategory } = useParams(); // Get innercategory from URL
 
   const selectedCategory = applicationData.find(
@@ -2424,6 +2543,35 @@ const VinylnnerApplication = () => {
         title={bannerData.title}
         breadcrumbs={bannerData.breadcrumbs}
       />
+
+      <section className="applications-section">
+        <div className="container">
+          <div className="row">
+            <ul className="application-tabs d-lg-flex align-items-center justify-content-center d-none">
+              {applicationTabsData.map((tab, index) => (
+                <li key={index} className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href={tab.url}
+                    role="button"
+                  >
+                    {tab.category}
+                  </a>
+                  <ul className="dropdown-menu">
+                    {tab.items.map((item, itemIndex) => (
+                      <li key={itemIndex}>
+                        <a className="dropdown-item" href={item.url}>
+                          {item.name}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <section className="vinyl-applications-section">
         <div className="container">

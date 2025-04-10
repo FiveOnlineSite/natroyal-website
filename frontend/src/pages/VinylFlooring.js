@@ -269,11 +269,11 @@ const VinylFlooring = () => {
               {""} Flooring
             </h2>
 
-            <p className="paragraph gray-para text-center">
+            {/* <p className="paragraph gray-para text-center">
               Lorem Ipsum es simplemente el texto de relleno de las imprentas y
               archivos de texto. Lorem Ipsum ha sido el texto de relleno
               estándar de las industrias desde el año 1500, cuando un impresor 
-            </p>
+            </p> */}
           </div>
 
           <div className="row mt-3 vinyl-flooring-row">
@@ -392,7 +392,7 @@ const VinylFlooring = () => {
               </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <NavLink to="/vinyl-flooring/healthcare">
+              <NavLink to="/vinyl-flooring/hospitality">
                 <img
                   src="/images/vinyl/Hospitality Vinyl.jpg"
                   alt="vinyl"

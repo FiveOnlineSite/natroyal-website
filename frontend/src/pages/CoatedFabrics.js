@@ -68,7 +68,7 @@ const CoatedFabrics = () => {
               <NavLink to="/coated-fabrics/residential-contract-furnishing">
                 <div className="single-application">
                   <img
-                    src="/images/coated-fabrics/furnishing-1.jpg"
+                    src="/images/coated-fabrics/Residential & Contract Furnishing.jpg"
                     alt="application"
                   />
 
@@ -95,7 +95,7 @@ const CoatedFabrics = () => {
             <div className="col-lg-6">
               <NavLink to="/coated-fabrics/automotive">
                 <div className="single-application">
-                  <img src="/images/coated-fabrics/Car Seats 2.jpg" />{" "}
+                  <img src="/images/coated-fabrics/Group 1 (2).png" />{" "}
                   <div className="application-content">
                     <h5>Automotive</h5>
                     {/* <p className="application-para">
@@ -117,7 +117,7 @@ const CoatedFabrics = () => {
             <div className="col-lg-6">
               <NavLink to="/coated-fabrics/two-wheelers">
                 <div className="single-application">
-                  <img src="/images/coated-fabrics/bike.jpg" />{" "}
+                  <img src="/images/coated-fabrics/Group 2 (1).png" />{" "}
                   <div className="application-content">
                     <h5>Two Wheelers</h5>
                     {/* <p className="application-para">
@@ -227,7 +227,7 @@ const CoatedFabrics = () => {
               </NavLink>
             </div>
             <div className="col-lg-6">
-              <NavLink to="#">
+              <NavLink to="/coated-fabrics/tractor">
                 <div className="single-application">
                   <img src="/images/coated-fabrics/Tractor.jpg" />{" "}
                   <div className="application-content">

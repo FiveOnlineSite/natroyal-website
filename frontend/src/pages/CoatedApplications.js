@@ -29,23 +29,14 @@ const CoatedApplications = () => {
     },
     {
       type: "Automotive",
-      title: "Automotive",
+      title: "Choosing the Right",
+      spanTitle: "Leatherette",
       name: "Automotive",
       bannerImg: "/images/coated-fabrics/banner-2.jpg",
-      para: "We are a pioneer in the business of supplying performance-based coated fabrics to the automotive industry",
-      applications: [
-        {
-          image: "/images/applications/coated/cars.jpg",
-          name: "Cars",
-          content:
-            "Automotive sector upholsterers and a significant number of OEMs have been our regular customers for years, purchasing a variety of automotive interiors such as car seats, door panels, trim cover, and more. They prefer us for our high-quality products and the wide range of colours & textures available. We have also developed a special product Comfort Ride with heat management and various other unique properties which can be used for car seat and steering wheel.",
-        },
-        {
-          image: "/images/applications/coated/public-transport.jpg",
-          name: "Public Transport",
-          content:
-            "Coated fabrics used in the public transport sector are expected to possess incredible durability & fire retardancy capabilities and all of our products strictly adhere to these expected standards, making them ideal for use in this sector.",
-        },
+      para: "We offer a diverse range of leatherette / Coated-Fabrics in various colors, textures and feels, each unique in its characteristics. This collection is crafted to meet all possible requirements related to comfort, climate conditions, durability, resilience, texture, touch and color preferences of our esteemed customers.",
+      images: [
+        { img: "/images/applications/coated/automotive_page-0001.jpg" },
+        { img: "/images/applications/coated/Group 4.png" },
       ],
     },
     {
@@ -55,36 +46,14 @@ const CoatedApplications = () => {
       name: "Two Wheelers",
       bannerImg: "/images/coated-fabrics/banner-1.jpg",
       para: "We manufacture & supply specialized 2-wheeler seat cover coated fabrics to make every ride joyful",
-      applications: [
-        {
-          image: "/images/applications/coated/motorbikes-coated-fabrics.jpg",
-          name: "Joyride – Seat Cover with unique properties",
-          content:
-            "Automotive sector upholsterers and a significant number of OEMs have been our regular customers for years, purchasing a variety of automotive interiors such as car seats, door panels, trim cover, and more. They prefer us for our high-quality products and the wide range of colours & textures available. We have also developed a special product Comfort Ride with heat management and various other unique properties which can be used for car seat and steering wheel.",
-          btn: "Learn More",
-        },
-        {
-          image: "/images/applications/coated/motorbikes.jpg",
-          name: "Two Wheeler Seat Covers and Tops",
-          content:
-            "Coated fabrics used in the public transport sector are expected to possess incredible durability & fire retardancy capabilities and all of our products strictly adhere to these expected standards, making them ideal for use in this sector.",
-          btn: "Learn More",
-        },
-        {
-          image:
-            "/images/applications/coated/Bicycle-Saddle-Seat-coated-fabrics.jpg",
-          name: "Bicycle Saddle & Seat",
-          content:
-            "Natural tacky and anti-slip coat, soft and high stretchable body for direct injection assembly.",
-        },
-      ],
+      images: [{ img: "/images/applications/coated/two-wheeler.jpg" }],
     },
     {
       type: "Marine-Recreational-Vehicles",
       title: "Marine & ",
       spanTitle: "Recreational Vehicles",
       name: "Marine & Recreational Vehicles",
-      bannerImg: "/images/coated-fabrics/banner-10.jpg",
+      bannerVideo: "/images/coated-fabrics/Marine Video.mp4",
       para: "We manufacture & supply specialized coated fabrics that endure the harsh conditions present on commercial & recreational vessels",
       applications: [
         {
@@ -204,6 +173,14 @@ const CoatedApplications = () => {
         },
       ],
     },
+    {
+      type: "Tractor",
+      title: "Tractor",
+      name: "Tractor",
+      bannerImg: "/images/coated-fabrics/Tractor.jpg",
+      para: "We manufacture & supply specialized 2-wheeler seat cover coated fabrics to make every ride joyful",
+      images: [{ img: "/images/applications/coated/tractor.jpg" }],
+    },
   ];
 
   const { category } = useParams(); // Get category from URL
@@ -218,6 +195,7 @@ const CoatedApplications = () => {
 
   const bannerData = {
     bannerImg: selectedCategory.bannerImg,
+    bannerVideo: selectedCategory.bannerVideo,
     title: selectedCategory?.name || "Default Title", // Ensure it doesn't break if selectedCategory is undefined
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
@@ -230,9 +208,85 @@ const CoatedApplications = () => {
     <Layout>
       <Banner
         bannerImg={bannerData.bannerImg}
+        bannerVideo={bannerData.bannerVideo}
         title={bannerData.title}
         breadcrumbs={bannerData.breadcrumbs}
       />
+
+      <section className="applications-section">
+        <div className="container">
+          <div className="row">
+            <ul className="application-tabs d-flex align-items-center justify-content-center">
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/coated-fabrics" end>
+                  Home
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/about-coated">
+                  About
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/laboratory-tested">
+                  Laboratory Tested
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink
+                  className="nav-link"
+                  to="/coated-fabrics/residential-contract-furnishing"
+                >
+                  Residential & Contract Furnishing
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/coated-fabrics/automotive">
+                  Automotive
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/coated-fabrics/two-wheelers">
+                  Two Wheelers
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink
+                  className="nav-link"
+                  to="/coated-fabrics/marine-recreational-vehicles"
+                >
+                  Marine & Recreational Vehicles
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/coated-fabrics/healthcare">
+                  Healthcare
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/coated-fabrics/footwear">
+                  Footwear
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/coated-fabrics/fashion">
+                  Fashion
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/coated-fabrics/tractor">
+                  Tractor
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/">
+                  Truck
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <section className="vinyl-applications-section">
         <div className="container">
@@ -253,17 +307,20 @@ const CoatedApplications = () => {
         <div className="container">
           <div className="row justify-content-center ">
             <div className="col-lg-9">
-              {selectedCategory.applications.map((application, index) => (
-                <div className="row align-items-center justify-content-center mt-4">
-                  <>
-                    <div className="col-lg-4 mb-4" key={index}>
+              {selectedCategory.applications &&
+                selectedCategory.applications.map((application, index) => (
+                  <div
+                    className="row align-items-center justify-content-center mt-4"
+                    key={index}
+                  >
+                    <div className="col-lg-4 mb-4">
                       <img
                         src={application.image}
                         alt={application.name}
                         className="w-100 coated-img"
                       />
                     </div>
-                    <div className="col-lg-7 offset-lg-1 mt-4" key={index}>
+                    <div className="col-lg-7 offset-lg-1 mt-4">
                       <h4 className="mb-4">{application.name}</h4>
                       <p className="paragraph gray-para">
                         {application.content}
@@ -280,9 +337,24 @@ const CoatedApplications = () => {
                         </div>
                       )}
                     </div>
-                  </>
-                </div>
-              ))}
+                  </div>
+                ))}
+
+              {selectedCategory.images &&
+                selectedCategory.images.map((image, index) => (
+                  <div
+                    className="row align-items-center justify-content-center mt-4"
+                    key={index}
+                  >
+                    <div className="col-lg-10 mb-4">
+                      <img
+                        src={image.img}
+                        alt={index}
+                        className="w-100 coated-img"
+                      />
+                    </div>
+                  </div>
+                ))}
             </div>
           </div>
         </div>
