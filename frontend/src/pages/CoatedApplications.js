@@ -35,8 +35,14 @@ const CoatedApplications = () => {
       bannerImg: "/images/coated-fabrics/banner-2.jpg",
       para: "We offer a diverse range of leatherette / Coated-Fabrics in various colors, textures and feels, each unique in its characteristics. This collection is crafted to meet all possible requirements related to comfort, climate conditions, durability, resilience, texture, touch and color preferences of our esteemed customers.",
       images: [
-        { img: "/images/applications/coated/automotive_page-0001.jpg" },
-        { img: "/images/applications/coated/Group 4.png" },
+        {
+          img: "/images/applications/coated/automotive_page-0001.jpg",
+          imgName: "Passenger Car Applications",
+        },
+        {
+          img: "/images/applications/coated/Group 4.png",
+          imgName: "Public Transport Applications",
+        },
       ],
     },
     {
@@ -310,7 +316,7 @@ const CoatedApplications = () => {
               {selectedCategory.applications &&
                 selectedCategory.applications.map((application, index) => (
                   <div
-                    className="row align-items-center justify-content-center mt-4"
+                    className="row align-items-center justify-content-center"
                     key={index}
                   >
                     <div className="col-lg-4 mb-4">
@@ -321,7 +327,9 @@ const CoatedApplications = () => {
                       />
                     </div>
                     <div className="col-lg-7 offset-lg-1 mt-4">
-                      <h4 className="mb-4">{application.name}</h4>
+                      <h4 className="mb-4">
+                        <i>{application.name}</i>
+                      </h4>
                       <p className="paragraph gray-para">
                         {application.content}
                       </p>
@@ -343,10 +351,13 @@ const CoatedApplications = () => {
               {selectedCategory.images &&
                 selectedCategory.images.map((image, index) => (
                   <div
-                    className="row align-items-center justify-content-center mt-4"
+                    className="row align-items-center justify-content-center"
                     key={index}
                   >
                     <div className="col-lg-10 mb-4">
+                      <h4 className="mb-4 text-center">
+                        <i>{image.imgName}</i>
+                      </h4>
                       <img
                         src={image.img}
                         alt={index}
