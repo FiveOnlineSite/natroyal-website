@@ -351,10 +351,10 @@ const CoatedApplications = () => {
               {selectedCategory.images &&
                 selectedCategory.images.map((image, index) => (
                   <div
-                    className="row align-items-center justify-content-center"
+                    className="row align-items-center justify-content-center mb-5"
                     key={index}
                   >
-                    <div className="col-lg-10 mb-4">
+                    <div className="col-lg-10">
                       <h4 className="mb-4 text-center">
                         <i>{image.imgName}</i>
                       </h4>
