@@ -57,7 +57,7 @@ const Home = () => {
       videoUrl: "/videos/8566376-uhd_3840_2160_30fps.mp4",
       // poster: "/images/banners/pexels-digitalbuggu-218535.png",
       text: "Exquisite Luxury Vinyl Planks & Tiles for Every Space",
-      url: "/vinyl-flooring",
+      url: "/lvt-flooring",
     },
 
     {

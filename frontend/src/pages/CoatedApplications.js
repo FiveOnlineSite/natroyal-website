@@ -20,7 +20,7 @@ const CoatedApplications = () => {
             "For Home Upholstery various types of textures, finishing, dry feel, stain-resistant products are available. It also includes Tumbling and Pull-up products.",
         },
         {
-          image: "/images/applications/coated/contract-furnishing.jpg",
+          image: "/images/applications/coated/Contract Furnishing.jpg",
           name: "Contract Furnishing",
           content:
             "Contract Furnishing is made for both indoor and outdoor furniture with very high strength, high abrasion and stain resistance properties. It also has anti-microbial properties.",
@@ -117,7 +117,7 @@ const CoatedApplications = () => {
         },
         {
           image:
-            "/images/applications/coated/healthcare-upholstry-coated-fabrics.jpg",
+            "/images/applications/coated/solution-to-discomfort-of-orthopaedic-plasters.jpg",
           name: "Solution to discomfort of Orthopaedic Plasters",
           content:
             "Orthopaedic surgeries are generally followed by plaster and it is to be kept for at least 2 weeks. Since there is no / very less air circulation between the plaster and the skin, there is sweat formation which is very difficult to clean. This causes discomfort followed by itching and foul smell. Natroyal Group introduces for the first time in India Phase Change Material Fabric which will be the first layer in contact with the skin before the plaster. The phase change material absorbs the body heat which generally results into sweat, thereby reducing sweat formation considerably which reduces bacterial growth and consequent itching.",
@@ -137,6 +137,7 @@ const CoatedApplications = () => {
           content:
             "We have specially developed thermoformable Polymer Foam which provides best comfort. It has 31.3% Plantar Pressure Index Reduction and has a very low return rate.",
           btn: "Learn More",
+          btnLink: "/docs/Natfoam-Presentation-1.pdf",
         },
         {
           image: "/images/applications/coated/micro-laser-cut-footwear.jpg",
@@ -285,7 +286,7 @@ const CoatedApplications = () => {
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
-                <NavLink className="nav-link" to="/">
+                <NavLink className="nav-link" to="/coated-fabrics/truck">
                   Truck
                 </NavLink>
               </li>
@@ -298,7 +299,7 @@ const CoatedApplications = () => {
         <div className="container">
           <h2 className="title new-title text-center">
             {" "}
-            {selectedCategory.title} {""}
+            {selectedCategory.title}{" "}
             <span className="yellow-title">{selectedCategory.spanTitle}</span>
             {""}
           </h2>
@@ -336,7 +337,7 @@ const CoatedApplications = () => {
                       {application.btn && (
                         <div className="d-flex mt-3">
                           <NavLink
-                            to="/docs/LVT-Brochure.pdf"
+                            to={application.btnLink}
                             target="_blank"
                             className="custom-button"
                           >
@@ -351,18 +352,14 @@ const CoatedApplications = () => {
               {selectedCategory.images &&
                 selectedCategory.images.map((image, index) => (
                   <div
-                    className="row align-items-center justify-content-center mb-5"
+                    className="row coated-big-img-div align-items-center justify-content-center mb-5"
                     key={index}
                   >
-                    <div className="col-lg-10">
+                    <div className="col-lg-8">
                       <h4 className="mb-4 text-center">
                         <i>{image.imgName}</i>
                       </h4>
-                      <img
-                        src={image.img}
-                        alt={index}
-                        className="w-100 coated-img"
-                      />
+                      <img src={image.img} alt={index} className="w-100" />
                     </div>
                   </div>
                 ))}

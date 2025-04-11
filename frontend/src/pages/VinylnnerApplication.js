@@ -2603,17 +2603,51 @@ const VinylnnerApplication = () => {
       <section className="application-types-section">
         <div className="container">
           <div className="row">
-            {selectedCategory.applications.map((application, index) => (
-              <div className="col-lg-2 col-md-6 col-12 mt-4" key={index}>
-                <div className="single-application-div">
-                  <div className="single-application-img">
-                    <img src={application.image} alt={application.name} />
-                  </div>
+            <div className="col-lg-12">
+              <div className="row">
+                <div className="col-lg-8">
+                  <div className="row">
+                    {selectedCategory.applications.map((application, index) => (
+                      <div
+                        className="col-lg-3 col-md-6 col-12 mt-4"
+                        key={index}
+                      >
+                        <div className="single-application-div">
+                          <div className="single-application-img">
+                            <img
+                              src={application.image}
+                              alt={application.name}
+                            />
+                          </div>
 
-                  <h4>{application.name}</h4>
+                          <h4>{application.name}</h4>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="col-lg-3 offset-lg-1 mt-lg-0 mt-5">
+                  <h3 className="suitable-for-title">Suitable For</h3>
+                  <div className="row ">
+                    {selectedCategory?.suitable?.map((suitable, index) => (
+                      <div
+                        className="col-lg-7 col-md-6 col-sm-6 col-xs-12 mt-4"
+                        key={index}
+                      >
+                        <NavLink to={suitable.link}>
+                          <div className="suitable-div">
+                            <div className="suitable-img-div">
+                              <img src={suitable.image} alt={suitable.name} />
+                            </div>
+                            <h6>{suitable.name}</h6>
+                          </div>
+                        </NavLink>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
-            ))}
+            </div>
           </div>
           <div className="row mt-5 ">
             <div className="col-lg-12">
@@ -2628,6 +2662,18 @@ const VinylnnerApplication = () => {
                     </div>
                   </div>
                 </NavLink> */}
+
+                <div className="d-flex my-4 w-auto">
+                  <NavLink to="/" target="_blank" className="custom-button">
+                    Technical Specification
+                  </NavLink>
+                </div>
+
+                <div className="d-flex my-4 w-auto">
+                  <NavLink to="/" target="_blank" className="custom-button">
+                    Installation & Maintenance
+                  </NavLink>
+                </div>
 
                 <div className="d-flex my-4 w-auto">
                   <NavLink
@@ -2659,25 +2705,7 @@ const VinylnnerApplication = () => {
       </section>
 
       <section className="suitable-for-section">
-        <div className="container">
-          <h3 className="suitable-for-title">Suitable For</h3>
-          <div className="row">
-            {selectedCategory?.suitable?.map((suitable, index) => (
-              <div className="col-lg-2 col-md-6 col-6 mt-4" key={index}>
-                <NavLink to={suitable.link}>
-                  <div className="suitable-div">
-                    <img
-                      src={suitable.image}
-                      alt={suitable.name}
-                      className="inner-application-img"
-                    />
-                    <h6>{suitable.name}</h6>
-                  </div>
-                </NavLink>
-              </div>
-            ))}
-          </div>
-        </div>
+        <div className="container"></div>
       </section>
     </Layout>
   );
