@@ -247,7 +247,7 @@ const CoatedFabrics = () => {
               </NavLink>
             </div>
             <div className="col-lg-6">
-              <NavLink to="/coated-fabrics/truck">
+              <NavLink to="/coated-fabrics">
                 <div className="single-application">
                   <img src="/images/coated-fabrics/Truck.jpg" />{" "}
                   <div className="application-content">
@@ -260,7 +260,7 @@ const CoatedFabrics = () => {
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
-                      <NavLink to="/coated-fabrics/truck">View More</NavLink>
+                      <NavLink to="/coated-fabrics">View More</NavLink>
                     </div>
                   </div>
                 </div>

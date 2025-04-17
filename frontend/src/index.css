@@ -169,6 +169,14 @@ body {
   /* display: flex; */
 }
 
+.vinyl-button {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 20px;
+  border: 1px solid var(--dark-gray-font);
+}
+
 .button-div {
   position: absolute;
   top: 50%;
@@ -2218,6 +2226,15 @@ body {
 .coated-application-section .coated-big-img-div img {
   height: 500px;
   object-fit: contain;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.install-modal {
+  background-color: var(--light-gray-font);
+  padding: 20px;
 }
 
 @keyframes smallScale {

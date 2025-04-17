@@ -141,10 +141,10 @@ const SeatingComponents = () => {
 
       <section className="seating-components-section">
         <div className="container">
-          <div className="row align-items-start justify-content-center">
+          <div className="row align-items-center justify-content-center">
             <div className="col-lg-6">
               <img
-                src="/images/seating/31177.png"
+                src="/images/banners/pexels-la-son-211137-4004373.png"
                 alt="seating-img"
                 className="w-100"
               />

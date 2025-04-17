@@ -40,7 +40,7 @@ const CoatedApplications = () => {
           imgName: "Passenger Car Applications",
         },
         {
-          img: "/images/applications/coated/Group 4.png",
+          img: "/images/applications/coated/Group 7.png",
           imgName: "Public Transport Applications",
         },
       ],
@@ -52,7 +52,7 @@ const CoatedApplications = () => {
       name: "Two Wheelers",
       bannerImg: "/images/coated-fabrics/banner-1.jpg",
       para: "We manufacture & supply specialized 2-wheeler seat cover coated fabrics to make every ride joyful",
-      images: [{ img: "/images/applications/coated/two-wheeler.jpg" }],
+      images: [{ img: "/images/applications/coated/image 7 (1) 1.png" }],
     },
     {
       type: "Marine-Recreational-Vehicles",
@@ -186,7 +186,7 @@ const CoatedApplications = () => {
       name: "Tractor",
       bannerImg: "/images/coated-fabrics/Tractor.jpg",
       para: "We manufacture & supply specialized 2-wheeler seat cover coated fabrics to make every ride joyful",
-      images: [{ img: "/images/applications/coated/tractor.jpg" }],
+      images: [{ img: "/images/applications/coated/20 march natroyal.jpg" }],
     },
   ];
 
@@ -286,7 +286,7 @@ const CoatedApplications = () => {
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
-                <NavLink className="nav-link" to="/coated-fabrics/truck">
+                <NavLink className="nav-link" to="/coated-fabrics">
                   Truck
                 </NavLink>
               </li>

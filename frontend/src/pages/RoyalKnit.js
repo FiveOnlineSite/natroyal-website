@@ -132,7 +132,7 @@ const RoyalKnit = () => {
       tags: ["Prevents Mold and Mildew Growth", "Medical & Healthcare Use"],
     },
     {
-      image: "/images/sliders/hydrophobic-fabric-500x500 1.png",
+      image: "/images/sliders/Group 6 (1).png",
       name: "Recycled Fabric",
       text: " Made from 100% recycled PET bottles. Meets global certification standards for quality, safety, and performance.",
       tags: ["Reduces Lower Carbon Footprint", "100% Recycled"],
