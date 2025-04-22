@@ -20,7 +20,7 @@ const CoatedApplications = () => {
             "For Home Upholstery various types of textures, finishing, dry feel, stain-resistant products are available. It also includes Tumbling and Pull-up products.",
         },
         {
-          image: "/images/applications/coated/Contract Furnishing.jpg",
+          image: "/images/applications/coated/contract-furnishing.jpg",
           name: "Contract Furnishing",
           content:
             "Contract Furnishing is made for both indoor and outdoor furniture with very high strength, high abrasion and stain resistance properties. It also has anti-microbial properties.",
@@ -52,7 +52,7 @@ const CoatedApplications = () => {
       name: "Two Wheelers",
       bannerImg: "/images/coated-fabrics/banner-1.jpg",
       para: "We manufacture & supply specialized 2-wheeler seat cover coated fabrics to make every ride joyful",
-      images: [{ img: "/images/applications/coated/image 7 (1) 1.png" }],
+      images: [{ img: "/images/applications/coated/two-wheeler.png" }],
     },
     {
       type: "Marine-Recreational-Vehicles",
