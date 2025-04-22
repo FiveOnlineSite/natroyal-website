@@ -40,7 +40,7 @@ const CoatedApplications = () => {
           imgName: "Passenger Car Applications",
         },
         {
-          img: "/images/applications/coated/Group 7.png",
+          img: "/images/applications/coated/automotive-img2.jpg",
           imgName: "Public Transport Applications",
         },
       ],
@@ -286,7 +286,7 @@ const CoatedApplications = () => {
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
-                <NavLink className="nav-link" to="/coated-fabrics">
+                <NavLink className="nav-link" to="/coated-fabrics" end>
                   Truck
                 </NavLink>
               </li>

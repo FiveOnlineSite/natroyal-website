@@ -280,7 +280,7 @@ const VinylFlooring = () => {
             <div className="col-lg-6 mt-5 px-3">
               <NavLink to="/vinyl-flooring/education">
                 <img
-                  src="/images/vinyl/Education.png"
+                  src="/images/vinyl/Education2.png"
                   alt="vinyl"
                   className="w-100"
                 />
@@ -309,7 +309,7 @@ const VinylFlooring = () => {
                 />
                 <div className="vinyl-detail-div d-flex align-items-start mt-3">
                   <div className="vinyl-img-div">
-                    <img src="/images/icons/healthcare.png" alt="vinyl-icons" />
+                    <img src="/images/icons/image 62.png" alt="vinyl-icons" />
                   </div>
                   <div className="vinyl-content">
                     <h5>Health Care</h5>
@@ -322,7 +322,7 @@ const VinylFlooring = () => {
                 </div>
               </NavLink>
             </div>
-            <div className="col-lg-6 mt-5 px-3">
+            {/* <div className="col-lg-6 mt-5 px-3">
               <NavLink to="/vinyl-flooring/wet-areas">
                 <img
                   src="/images/vinyl/wet-area-banner.png"
@@ -343,7 +343,7 @@ const VinylFlooring = () => {
                   </div>
                 </div>
               </NavLink>
-            </div>
+            </div> */}
             <div className="col-lg-6 mt-5 px-3">
               <NavLink to="/vinyl-flooring/residential">
                 <img
@@ -435,7 +435,7 @@ const VinylFlooring = () => {
                 </div>
               </NavLink>
             </div>
-            <div className="col-lg-6 mt-5 px-3">
+            {/* <div className="col-lg-6 mt-5 px-3">
               <NavLink to="/vinyl-flooring/sports">
                 <img
                   src="/images/vinyl/Avenger-Banner.jpg"
@@ -456,7 +456,7 @@ const VinylFlooring = () => {
                   </div>
                 </div>
               </NavLink>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

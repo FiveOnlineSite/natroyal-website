@@ -261,8 +261,8 @@ const Home = () => {
                 Flooring, Fabrics, and Seating Solution
               </h2>
 
-              <div className="row mt-5">
-                <div className="col-lg-6">
+              <div className="row mt-3">
+                <div className="col-lg-10">
                   <p className="paragraph">
                     Since 1962, Natroyal Group has been a leader in
                     manufacturing and exporting Luxury Vinyl Plank & Tile, PVC
@@ -272,7 +272,7 @@ const Home = () => {
                   </p>
                 </div>
 
-                <div className="col-lg-6">
+                {/* <div className="col-lg-6">
                   <div className="row justify-content-around">
                     <div className="col-lg-6 experience mb-lg-0 mb-4">
                       <h2>60+</h2>
@@ -295,8 +295,120 @@ const Home = () => {
                       </NavLink>
                     </div>
                   </div>
+                </div> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="key-milestones-section pt-0">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5">
+              <h2 className="title new-title">
+                {" "}
+                <span className="yellow-title">Key</span> Milestones
+              </h2>
+
+              <div className="milestones-content">
+                <ul>
+                  <li className="paragraph gray-para">
+                    First company in India to develop transfer coating
+                    technology in 1978.
+                  </li>
+                  <li className="paragraph gray-para mt-2">
+                    First company to start a transfer coating line in India
+                  </li>
+                  <li className="paragraph gray-para mt-2">
+                    First company to develop an award-winning heat management
+                    leathercloth product
+                  </li>
+                  <li className="paragraph gray-para mt-2">
+                    First coated fabric company to have backward integration
+                    with knitting machines
+                  </li>
+
+                  <li className="paragraph gray-para mt-2">
+                    First company to have five roll calendar and four roll
+                    calendar machine for vinyl flooring
+                  </li>
+                  <li className="paragraph gray-para mt-2">
+                    First company to develop international standards transport
+                    flooring in India
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-7">
+              <div className="row milestones-row">
+                <div className="col-lg-6">
+                  <div className="counter-div right-border">
+                    <img
+                      src="/images/icons/testament.png"
+                      alt="icon"
+                      width="80px"
+                      height="80px"
+                    />
+
+                    <h2>60 +</h2>
+
+                    <h6>Year of Group Legacy</h6>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="counter-div left-border">
+                    <img
+                      src="/images/icons/costumer (1).png"
+                      alt="icon"
+                      width="80px"
+                      height="80px"
+                    />
+                    <h2>100 +</h2>
+
+                    <h6>Global Clients</h6>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="counter-div">
+                    <img
+                      src="/images/icons/settings.png"
+                      alt="icon"
+                      width="80px"
+                      height="80px"
+                    />
+                    <h2>120,000</h2>
+
+                    <h6>sq. ft of Manufacturing Facility</h6>
+                  </div>
+                </div>
+
+                <div className="col-lg-6">
+                  <div className="counter-div">
+                    <img
+                      src="/images/icons/self-development.png"
+                      alt="icon"
+                      width="80px"
+                      height="80px"
+                    />
+                    <h2>500 +</h2>
+
+                    <h6>Skilled Employees</h6>
+                  </div>
                 </div>
               </div>
+            </div>
+            <div className="col-lg-12 mt-3 text-end">
+            <NavLink
+                        to="/about-us"
+                        className="custom-button border-btn"
+                      >
+                        Read More
+                        <img
+                          src="/images/icons/arrow-up-right.png"
+                          className="ps-2"
+                          alt="arrow"
+                        />
+                      </NavLink>
             </div>
           </div>
         </div>

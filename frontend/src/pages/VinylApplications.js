@@ -10,7 +10,7 @@ const VinylApplications = () => {
       title: "Education",
       name: "Education",
       para: "Our Education range of Vinyl Flooring is developed to help students concentrate, inspire and interact. The vibrant colors enhance creativity and concentration for both the students and facilitators.",
-      bannerImg: "/images/vinyl/Education.png",
+      bannerImg: "/images/vinyl/education3.png",
       applications: [
         {
           image: "/images/applications/education/MW2011.jpg",

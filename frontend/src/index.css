@@ -469,7 +469,7 @@ body {
   line-height: 22.82px;
   text-align: left;
   color: var(--dark-gray-font);
-  border: 1px solid var(--dark-gray-font);
+  border: 1px solid var(--dark-gray-font);display: inline-block;
 }
 
 .no-border-btn {
@@ -1825,7 +1825,7 @@ body {
 
 .seating-application-section img {
   height: 339px;
-  object-fit: cover;
+  object-fit: cover;border: 1px solid #ededed;
 }
 
 .modal.modal-bottom-slide .modal-dialog {
