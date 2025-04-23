@@ -55,7 +55,7 @@ const VinylApplications = () => {
         {
           image: "/images/applications/education/361004.jpg",
           name: "Nuplank",
-          innerCategory: "/nuplank",
+          innerCategory: "/lvt-flooring",
         },
         {
           image: "/images/applications/education/MK2152.jpg",
@@ -135,7 +135,7 @@ const VinylApplications = () => {
         {
           image: "/images/applications/education/361004.jpg",
           name: "Nuplank",
-          innerCategory: "/nuplank",
+          innerCategory: "/lvt-flooring",
         },
         {
           image: "/images/applications/education/MK2152.jpg",
@@ -215,7 +215,7 @@ const VinylApplications = () => {
         {
           image: "/images/applications/education/361004.jpg",
           name: "Nuplank",
-          innerCategory: "/nuplank",
+          innerCategory: "/lvt-flooring",
         },
         {
           image: "/images/applications/residential/1 (1).jpg",
@@ -271,7 +271,7 @@ const VinylApplications = () => {
         {
           image: "/images/applications/offices/361037.jpg",
           name: "Nuplank",
-          innerCategory: "/nuplank",
+          innerCategory: "/lvt-flooring",
         },
         {
           image: "/images/applications/offices/MP351013.jpg",
@@ -484,20 +484,20 @@ const VinylApplications = () => {
         
       ],
     },
-    {
-      type: "Sports",
-      title: "Sports",
-      name: "Sports",
-      bannerImg: "/images/vinyl/Avenger-Banner.jpg",
-      para: "Avengers is multi- purpose sports surface designed for use in a wide range of sporting events like Gymnasiums, Yoga rooms, Table Tennis, fitness centers etc. It is manufactured keeping in view the varying shock absorbing requirements and performance requirements.",
-      applications: [
-        {
-          image: "/images/applications/sports/avenger.jpg",
-          name: "Avenger",
-          innerCategory: "/avenger",
-        },
-      ],
-    },
+    // {
+    //   type: "Sports",
+    //   title: "Sports",
+    //   name: "Sports",
+    //   bannerImg: "/images/vinyl/Avenger-Banner.jpg",
+    //   para: "Avengers is multi- purpose sports surface designed for use in a wide range of sporting events like Gymnasiums, Yoga rooms, Table Tennis, fitness centers etc. It is manufactured keeping in view the varying shock absorbing requirements and performance requirements.",
+    //   applications: [
+    //     {
+    //       image: "/images/applications/sports/avenger.jpg",
+    //       name: "Avenger",
+    //       innerCategory: "/avenger",
+    //     },
+    //   ],
+    // },
   ];
 
   const applicationTabsData = [
