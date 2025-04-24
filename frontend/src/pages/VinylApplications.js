@@ -53,8 +53,8 @@ const VinylApplications = () => {
           innerCategory: "/royal-star",
         },
         {
-          image: "/images/applications/education/361004.jpg",
-          name: "Nuplank",
+          image: "/images/applications/education/lvt-group.png",
+          name: "LVT",
           innerCategory: "/lvt-flooring",
         },
         {
@@ -133,8 +133,8 @@ const VinylApplications = () => {
           innerCategory: "/tuff",
         },
         {
-          image: "/images/applications/education/361004.jpg",
-          name: "Nuplank",
+          image: "/images/applications/education/lvt-group.png",
+          name: "LVT",
           innerCategory: "/lvt-flooring",
         },
         {
@@ -213,8 +213,8 @@ const VinylApplications = () => {
           innerCategory: "/royal-classic",
         },
         {
-          image: "/images/applications/education/361004.jpg",
-          name: "Nuplank",
+          image: "/images/applications/education/lvt-group.png",
+          name: "LVT",
           innerCategory: "/lvt-flooring",
         },
         {
@@ -269,8 +269,8 @@ const VinylApplications = () => {
           innerCategory: "/standard-rs",
         },
         {
-          image: "/images/applications/offices/361037.jpg",
-          name: "Nuplank",
+          image: "/images/applications/education/lvt-group.png",
+          name: "LVT",
           innerCategory: "/lvt-flooring",
         },
         {
@@ -420,7 +420,7 @@ const VinylApplications = () => {
         //   innerCategory: "/aqua-rs",
         // },
         // {
-        //   image: "/images/applications/offices/361037.jpg",
+        //   image: "/images/applications/offices/lvt-group.png",
         //   name: "Nuplank",
         //   innerCategory: "/nuplank",
         // },
@@ -512,7 +512,7 @@ const VinylApplications = () => {
         // { name: "Startrek", url: "/startrek" },
         { name: "Royal Star", url: "/royal-star" },
         { name: "Tiger", url: "/tiger" },
-        { name: "Nuplank", url: "/lvt-flooring" },
+        { name: "LVT", url: "/lvt-flooring" },
         { name: "Royal Classic", url: "/royal-classic" },
         { name: "Majesty", url: "/majesty" },
         { name: "Tuff", url: "/tuff" },
@@ -530,7 +530,7 @@ const VinylApplications = () => {
         { name: "Orbit", url: "/orbit" },
         { name: "Royal Star", url: "/royal-star" },
         { name: "Tuff", url: "/tuff" },
-        { name: "Nuplank", url: "/lvt-flooring" },
+        { name: "LVT", url: "/lvt-flooring" },
         { name: "Tiger", url: "/tiger" },
       ],
     },
@@ -546,7 +546,7 @@ const VinylApplications = () => {
         { name: "Majesty Pro", url: "/majesty-pro" },
         { name: "Opera", url: "/opera" },
         { name: "Royal Classic", url: "/royal-classic" },
-        { name: "Nuplank", url: "/lvt-flooring" },
+        { name: "LVT", url: "/lvt-flooring" },
         { name: "Majesty", url: "/majesty" },
         { name: "Printed Flooring", url: "/printed-flooring" },
       ],
@@ -558,7 +558,7 @@ const VinylApplications = () => {
         { name: "Orbit", url: "/orbit" },
         { name: "Suprema RS", url: "/suprema-rs" },
         { name: "Standard RS", url: "/standard-rs" },
-        { name: "Nuplank", url: "/lvt-flooring" },
+        { name: "LVT", url: "/lvt-flooring" },
         { name: "Majesty Pro", url: "/majesty-pro" },
         { name: "Majesty", url: "/majesty" },
         { name: "Royal Classic", url: "/royal-classic" },
