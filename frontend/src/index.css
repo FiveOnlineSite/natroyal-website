@@ -2040,9 +2040,13 @@ body {
   opacity: 0;
 }
 
-.features-section {
+.features-section, .testimonials-section {
   padding: 50px 0 50px 0;
   background-color: #fffae8;
+}
+
+.testimonials-section{
+  margin: 50px 0;
 }
 
 .features-div {
@@ -2237,6 +2241,66 @@ body {
   padding: 20px;
 }
 
+.quality-policy-section{
+  padding: 50px 0;
+}
+
+.testimonial-image-container img{
+  filter: invert(1);
+}
+
+
+.testimonial-slider-content h6{
+  font-size: 18px;
+line-height: 28px;
+text-align: center;
+}
+
+
+.testimonial-name h6 span{
+  font-weight: 700;
+  color: var(--dark-yellow-font)
+}
+
+.awards-honours-section{
+  padding: 50px 0 150px 0;
+}
+
+.honours-div{
+  position: relative;
+}
+
+.honours-div .honours-img{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+
+.honours-div .honours-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.honours-div .honours-content h6{
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--dark-yellow-font);
+}
+
+.honours-div .honours-content p{
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.honours-row .col-lg-3:nth-child(even){
+  transform: translate(0 , 50%);
+}
 @keyframes smallScale {
   0% {
     transform: scale(1);
@@ -2355,6 +2419,14 @@ body {
   .textiles-slider-content {
     min-height: 384px;
   }
+
+  .honours-row .col-lg-3:nth-child(even){
+    transform: translate(0);
+  }
+
+  .awards-honours-section{
+padding: 50px 0;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -2417,6 +2489,10 @@ body {
     flex: 0 0 30%; /* 3 items per row */
     max-width: 30%;
   }
+
+ 
+
+ 
 }
 
 @media screen and (max-width: 768px) {
@@ -2682,6 +2758,10 @@ body {
   .custom-col {
     flex: 0 0 48%; /* 2 items per row */
     max-width: 48%;
+  }
+
+  .honours-div .honours-content{
+    padding: 0 10%;
   }
 }
 
