@@ -94,8 +94,7 @@ const VinylFlooring = () => {
         { name: "Tuff", url: "/tuff" },
         // { name: "Elegant", url: "/elegant" },
         // { name: "Dazzle", url: "/dazzle" },
-        
-        
+
         // { name: "Avengers", url: "/avengers" },
       ],
     },
@@ -139,7 +138,6 @@ const VinylFlooring = () => {
         { name: "Majesty", url: "/majesty" },
         { name: "Royal Classic", url: "/royal-classic" },
         { name: "Tiger", url: "/tiger" },
-
       ],
     },
     {
@@ -153,7 +151,6 @@ const VinylFlooring = () => {
         { name: "Eco Plus V", url: "/eco-plus-v" },
         { name: "Royal Star", url: "/royal-star" },
         { name: "Tiger", url: "/tiger" },
-
       ],
     },
     {

@@ -9,7 +9,7 @@ const CoatedApplicationModal = () => {
         data-bs-toggle="modal"
         data-bs-target="#applicationsModal"
       >
-        Applications
+        Applications <i class="fa-solid fa-arrow-up"></i>
       </button>
 
       {/* Applications Modal */}
@@ -24,7 +24,7 @@ const CoatedApplicationModal = () => {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="applicationsModalLabel">
-                Applications
+                Applications <i class="fa-solid fa-arrow-down"></i>
               </h5>
               <button
                 type="button"

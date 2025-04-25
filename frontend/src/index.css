@@ -1861,6 +1861,13 @@ body {
   overflow-y: scroll;
 }
 
+.applications-accordians .modal-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
 /* COATED FABRICS */
 
 .about-coated-section,
@@ -2388,7 +2395,9 @@ body {
   }
 
   .applications-accordions .application-btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
