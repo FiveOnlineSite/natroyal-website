@@ -73,7 +73,7 @@ const RoyalKnit = () => {
 
   const textilesData = [
     {
-      image: "/images/sliders/3ab1200c-fe85-41e9-9ec3-cf458ed78740.jpg",
+      image: "/images/sliders/headline-fabrics.jpg",
       name: "Headliner Fabric",
       text: "Our brushed and flat knit headliner ranges are available in more than 30 colors to complement most modern automotive interiors.",
       tags: [

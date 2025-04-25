@@ -97,6 +97,7 @@ const Laboratory = () => {
                 alt="laboratory-img"
                 className="w-100"
               />
+              <p className="text-center">Wyzenbeek Abrasion Test</p>
             </div>
             <div className="col-lg-4 mt-lg-0 mt-3">
               <img
@@ -104,6 +105,7 @@ const Laboratory = () => {
                 alt="laboratory-img"
                 className="w-100"
               />
+              <p className="text-center">Wire abrasion test</p>
             </div>
             <div className="col-lg-4 mt-lg-0 mt-3">
               <img
@@ -111,6 +113,7 @@ const Laboratory = () => {
                 alt="laboratory-img"
                 className="w-100"
               />
+              <p className="text-center">Taber abrasion and Color Matching Booth</p>
             </div>
           </div>
           <div className="row">
@@ -120,6 +123,7 @@ const Laboratory = () => {
                 alt="laboratory-img"
                 className="w-100"
               />
+              <p className="text-center">Tensile Tester</p>
             </div>
             <div className="col-lg-4 mt-lg-5 mt-3">
               <img
@@ -127,6 +131,7 @@ const Laboratory = () => {
                 alt="laboratory-img"
                 className="w-100"
               />
+              <p className="text-center">Bally Flexing Test</p>
             </div>
           </div>
         </div>

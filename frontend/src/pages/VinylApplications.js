@@ -11,57 +11,72 @@ const VinylApplications = () => {
       title: "Education",
       name: "Education",
       para: "Our Education range of Vinyl Flooring is developed to help students concentrate, inspire and interact. The vibrant colors enhance creativity and concentration for both the students and facilitators.",
-      bannerImg: "/images/vinyl/Education.png",
+      bannerImg: "/images/vinyl/education3.png",
       applications: [
-        {
-          image: "/images/applications/education/MW2011.jpg",
-          name: "Moonwalk",
-          innerCategory: "/moonwalk",
-        },
-        {
-          image: "/images/applications/education/SY2406.jpg",
-          name: "Symphony",
-          innerCategory: "/symphony",
-        },
-        {
-          image: "/images/applications/education/EG2047.jpg",
-          name: "Elegant",
-          innerCategory: "/elegant",
-        },
-        {
-          image: "/images/applications/education/Blue-Lagoon.jpg",
-          name: "Accord",
-          innerCategory: "/accord",
-        },
-        {
-          image: "/images/applications/education/SK2630.jpg",
-          name: "Startrek",
-          innerCategory: "/startrek",
-        },
-        {
-          image: "/images/applications/education/DZ2998.jpg",
-          name: "Dazzle",
-          innerCategory: "/dazzle",
-        },
-        {
-          image: "/images/applications/education/MK2152.jpg",
-          name: "Mirakle",
-          innerCategory: "/mirakle",
-        },
+        // {
+        //   image: "/images/applications/education/MW2011.jpg",
+        //   name: "Moonwalk",
+        //   innerCategory: "/moonwalk",
+        // },
+        // {
+        //   image: "/images/applications/education/SY2406.jpg",
+        //   name: "Symphony",
+        //   innerCategory: "/symphony",
+        // },
+        // {
+        //   image: "/images/applications/education/EG2047.jpg",
+        //   name: "Elegant",
+        //   innerCategory: "/elegant",
+        // },
+        // {
+        //   image: "/images/applications/education/Blue-Lagoon.jpg",
+        //   name: "Accord",
+        //   innerCategory: "/accord",
+        // },
+        // {
+        //   image: "/images/applications/education/SK2630.jpg",
+        //   name: "Startrek",
+        //   innerCategory: "/startrek",
+        // },
+        // {
+        //   image: "/images/applications/education/DZ2998.jpg",
+        //   name: "Dazzle",
+        //   innerCategory: "/dazzle",
+        // },
+        // {
+        //   image: "/images/applications/education/MK2152.jpg",
+        //   name: "Mirakle",
+        //   innerCategory: "/mirakle",
+        // },
         {
           image: "/images/applications/education/RS3112.jpg",
           name: "Royal Star",
           innerCategory: "/royal-star",
         },
         {
-          image: "/images/applications/education/361004.jpg",
-          name: "Nuplank",
-          innerCategory: "/nuplank",
+          image: "/images/applications/education/lvt-group.png",
+          name: "LVT",
+          innerCategory: "/lvt-flooring",
         },
         {
           image: "/images/applications/education/MK2152.jpg",
           name: "Tiger",
           innerCategory: "/tiger",
+        },
+        {
+          image: "/images/applications/residential/6.jpg",
+          name: "Royal Classic",
+          innerCategory: "/royal-classic",
+        },
+        {
+          image: "/images/applications/residential/1 (1).jpg",
+          name: "Majesty",
+          innerCategory: "/majesty",
+        },
+        {
+          image: "/images/applications/offices/1.jpg",
+          name: "Tuff",
+          innerCategory: "/tuff",
         },
       ],
     },
@@ -72,15 +87,41 @@ const VinylApplications = () => {
       bannerImg: "/images/vinyl/Healthcare.png",
       para: "Our flooring provides a healthy and hygienic environment to patients to enhance the healing and curing elements for a speedy recovery. The care givers receive aid in providing the same with ease and experience comfort in the work place. The Flooring is also designed for bare foot and continuous wet areas.",
       applications: [
+        // {
+        //   image: "/images/applications/education/MW2011.jpg",
+        //   name: "Moonwalk",
+        //   innerCategory: "/moonwalk",
+        // },
+        // {
+        //   image: "/images/applications/healthcare/WY2032.png",
+        //   name: "Wally",
+        //   innerCategory: "/wally",
+        // },
+        
+        // {
+        //   image: "/images/applications/education/Blue-Lagoon.jpg",
+        //   name: "Accord",
+        //   innerCategory: "/accord",
+        // },
+        // {
+        //   image: "/images/applications/education/SK2630.jpg",
+        //   name: "Startrek",
+        //   innerCategory: "/startrek",
+        // },
+        // {
+        //   image: "/images/applications/education/DZ2998.jpg",
+        //   name: "Dazzle",
+        //   innerCategory: "/dazzle",
+        // },
+        // {
+        //   image: "/images/applications/education/MK2152.jpg",
+        //   name: "Mirakle",
+        //   innerCategory: "/mirakle",
+        // },
         {
-          image: "/images/applications/education/MW2011.jpg",
-          name: "Moonwalk",
-          innerCategory: "/moonwalk",
-        },
-        {
-          image: "/images/applications/healthcare/WY2032.png",
-          name: "Wally",
-          innerCategory: "/wally",
+          image: "/images/applications/healthcare/AT2041.jpg",
+          name: "Orbit",
+          innerCategory: "/orbit",
         },
         {
           image: "/images/applications/education/RS3112.jpg",
@@ -88,34 +129,14 @@ const VinylApplications = () => {
           innerCategory: "/royal-star",
         },
         {
-          image: "/images/applications/education/Blue-Lagoon.jpg",
-          name: "Accord",
-          innerCategory: "/accord",
+          image: "/images/applications/offices/1.jpg",
+          name: "Tuff",
+          innerCategory: "/tuff",
         },
         {
-          image: "/images/applications/education/SK2630.jpg",
-          name: "Startrek",
-          innerCategory: "/startrek",
-        },
-        {
-          image: "/images/applications/education/DZ2998.jpg",
-          name: "Dazzle",
-          innerCategory: "/dazzle",
-        },
-        {
-          image: "/images/applications/education/MK2152.jpg",
-          name: "Mirakle",
-          innerCategory: "/mirakle",
-        },
-        {
-          image: "/images/applications/healthcare/AT2041.jpg",
-          name: "Orbit",
-          innerCategory: "/orbit",
-        },
-        {
-          image: "/images/applications/education/361004.jpg",
-          name: "Nuplank",
-          innerCategory: "/nuplank",
+          image: "/images/applications/education/lvt-group.png",
+          name: "LVT",
+          innerCategory: "/lvt-flooring",
         },
         {
           image: "/images/applications/education/MK2152.jpg",
@@ -124,21 +145,21 @@ const VinylApplications = () => {
         },
       ],
     },
-    {
-      type: "Wet-Areas",
-      title: "Wet",
-      spanTitle: "Areas",
-      name: "Wet Areas",
-      bannerImg: "/images/vinyl/wet-area-banner.png",
-      para: "Our flooring provides a healthy and hygienic environment to patients to enhance the healing and curing elements for a speedy recovery. The care givers receive aid in providing the same with ease and experience comfort in the work place. The Flooring is also designed for bare foot and continuous wet areas.",
-      applications: [
-        {
-          image: "/images/applications/wetareas/RQ2642.jpg",
-          name: "Aqua RS",
-          innerCategory: "/moonwalk",
-        },
-      ],
-    },
+    // {
+    //   type: "Wet-Areas",
+    //   title: "Wet",
+    //   spanTitle: "Areas",
+    //   name: "Wet Areas",
+    //   bannerImg: "/images/vinyl/wet-area-banner.png",
+    //   para: "Our flooring provides a healthy and hygienic environment to patients to enhance the healing and curing elements for a speedy recovery. The care givers receive aid in providing the same with ease and experience comfort in the work place. The Flooring is also designed for bare foot and continuous wet areas.",
+    //   applications: [
+    //     {
+    //       image: "/images/applications/wetareas/RQ2642.jpg",
+    //       name: "Aqua RS",
+    //       innerCategory: "/moonwalk",
+    //     },
+    //   ],
+    // },
     {
       type: "Residential",
       title: "Residential",
@@ -146,10 +167,41 @@ const VinylApplications = () => {
       bannerImg: "/images/vinyl/Residential Vinyl.jpg",
       para: "Our exquisite range of vinyl floor coverings in wooden, geometric and all over designs is developed keeping in mind the various tastes of individuals for designing their homes. It is easy to maintain and hassle free installation helps its users to change their interiors as often as desired. Flooring category includes printed flooring for normal economical range and Royal Star, Moonwalk, Majesty, Opera, Symphony, Royal Classic etc.",
       applications: [
+        // {
+        //   image: "/images/applications/residential/RS3114.jpg",
+        //   name: "Royal Star",
+        //   innerCategory: "/royal-star",
+        // },
+        
+        // {
+        //   image: "/images/applications/education/MW2011.jpg",
+        //   name: "Moonwalk",
+        //   innerCategory: "/moonwalk",
+        // },
+        // {
+        //   image: "/images/applications/residential/EG2047.jpg",
+        //   name: "Elegant",
+        //   innerCategory: "/elegant",
+        // },
+        // {
+        //   image: "/images/applications/education/MK2152.jpg",
+        //   name: "Mirakle",
+        //   innerCategory: "/mirakle",
+        // },
+        // {
+        //   image: "/images/applications/education/Blue-Lagoon.jpg",
+        //   name: "Accord",
+        //   innerCategory: "/accord",
+        // },
+        // {
+        //   image: "/images/applications/education/DZ2998.jpg",
+        //   name: "Dazzle",
+        //   innerCategory: "/dazzle",
+        // },
         {
-          image: "/images/applications/residential/RS3114.jpg",
-          name: "Royal Star",
-          innerCategory: "/royal-star",
+          image: "/images/applications/residential/MP 117047.jpg",
+          name: "Majesty Pro",
+          innerCategory: "/majesty-pro",
         },
         {
           image: "/images/applications/residential/1.jpg",
@@ -157,52 +209,20 @@ const VinylApplications = () => {
           innerCategory: "/opera",
         },
         {
-          image: "/images/applications/education/361004.jpg",
-          name: "Nuplank",
-          innerCategory: "/nuplank",
+          image: "/images/applications/residential/6.jpg",
+          name: "Royal Classic",
+          innerCategory: "/royal-classic",
         },
         {
-          image: "/images/applications/education/MW2011.jpg",
-          name: "Moonwalk",
-          innerCategory: "/moonwalk",
-        },
-        {
-          image: "/images/applications/residential/EG2047.jpg",
-          name: "Elegant",
-          innerCategory: "/elegant",
-        },
-        {
-          image: "/images/applications/education/MK2152.jpg",
-          name: "Mirakle",
-          innerCategory: "/mirakle",
-        },
-        {
-          image: "/images/applications/education/Blue-Lagoon.jpg",
-          name: "Accord",
-          innerCategory: "/accord",
-        },
-        {
-          image: "/images/applications/education/DZ2998.jpg",
-          name: "Dazzle",
-          innerCategory: "/dazzle",
+          image: "/images/applications/education/lvt-group.png",
+          name: "LVT",
+          innerCategory: "/lvt-flooring",
         },
         {
           image: "/images/applications/residential/1 (1).jpg",
           name: "Majesty",
           innerCategory: "/majesty",
-        },
-
-        {
-          image: "/images/applications/residential/MP 117047.jpg",
-          name: "Majesty Pro",
-          innerCategory: "/majesty-pro",
-        },
-
-        {
-          image: "/images/applications/residential/6.jpg",
-          name: "Royal Classic",
-          innerCategory: "/royal-classic",
-        },
+        },        
         {
           image: "/images/applications/residential/3.jpg",
           name: "Printend Flooring",
@@ -218,25 +238,26 @@ const VinylApplications = () => {
       bannerImg: "/images/vinyl/Office Vinyl.jpg",
       para: "Where aesthetics meet practicality, our various ranges are designed to meet the growing aesthetics demands of the guests/ customers in offices, retail and hospitality. It also meets the high performance requirement at the same time.",
       applications: [
-        {
-          image: "/images/applications/offices/MW2011.jpg",
-          name: "Moonwalk",
-          innerCategory: "/moonwalk",
-        },
+        // {
+        //   image: "/images/applications/offices/MW2011.jpg",
+        //   name: "Moonwalk",
+        //   innerCategory: "/moonwalk",
+        // },
+        
+        // {
+        //   image: "/images/applications/offices/DZ2998.jpg",
+        //   name: "Dazzle",
+        //   innerCategory: "/dazzle",
+        // },
+        // {
+        //   image: "/images/applications/offices/Blue-Lagoon.jpg",
+        //   name: "Accord",
+        //   innerCategory: "/accord",
+        // },
         {
           image: "/images/applications/offices/AT2041.jpg",
           name: "Orbit",
           innerCategory: "/orbit",
-        },
-        {
-          image: "/images/applications/offices/DZ2998.jpg",
-          name: "Dazzle",
-          innerCategory: "/dazzle",
-        },
-        {
-          image: "/images/applications/offices/Blue-Lagoon.jpg",
-          name: "Accord",
-          innerCategory: "/accord",
         },
         {
           image: "/images/applications/offices/1 (1).jpg",
@@ -244,36 +265,19 @@ const VinylApplications = () => {
           innerCategory: "/suprema-rs",
         },
         {
-          image: "/images/applications/offices/361037.jpg",
-          name: "Nuplank",
-          innerCategory: "/nuplank",
-        },
-        {
-          image: "/images/applications/offices/MK2152.jpg",
-          name: "Mirakle",
-          innerCategory: "/mirakle",
-        },
-        {
           image: "/images/applications/offices/3.jpg",
           name: "Standard RS",
           innerCategory: "/standard-rs",
         },
         {
+          image: "/images/applications/education/lvt-group.png",
+          name: "LVT",
+          innerCategory: "/lvt-flooring",
+        },
+        {
           image: "/images/applications/offices/MP351013.jpg",
           name: "Majesty Pro",
           innerCategory: "/majesty-pro",
-        },
-
-        {
-          image: "/images/applications/offices/1.jpg",
-          name: "Tuff",
-          innerCategory: "/tuff",
-        },
-
-        {
-          image: "/images/applications/offices/RQ2642.jpg",
-          name: "Aqua RS",
-          innerCategory: "/aqua-rs",
         },
         {
           image: "/images/applications/offices/1 (2).jpg",
@@ -281,35 +285,57 @@ const VinylApplications = () => {
           innerCategory: "/majesty",
         },
         {
-          image: "/images/applications/offices/SY2406.jpg",
-          name: "Symphony",
-          innerCategory: "/symphony",
-        },
-        {
-          image: "/images/applications/offices/RS3112.jpg",
-          name: "Royal Star",
-          innerCategory: "/royal-star",
-        },
-        {
           image: "/images/applications/offices/4 (1).png",
           name: "Royal Classic",
           innerCategory: "/royal-classic",
-        },
-        {
-          image: "/images/applications/offices/SK2630.jpg",
-          name: "Startrek",
-          innerCategory: "/startrek",
-        },
-        {
-          image: "/images/applications/offices/EG2047.jpg",
-          name: "Elegant",
-          innerCategory: "/elegant",
         },
         {
           image: "/images/applications/offices/MK2152.jpg",
           name: "Tiger",
           innerCategory: "/tiger",
         },
+        // {
+        //   image: "/images/applications/offices/MK2152.jpg",
+        //   name: "Mirakle",
+        //   innerCategory: "/mirakle",
+        // },
+        
+        
+
+        // {
+        //   image: "/images/applications/offices/1.jpg",
+        //   name: "Tuff",
+        //   innerCategory: "/tuff",
+        // },
+
+        // {
+        //   image: "/images/applications/offices/RQ2642.jpg",
+        //   name: "Aqua RS",
+        //   innerCategory: "/aqua-rs",
+        // },
+        
+        // {
+        //   image: "/images/applications/offices/SY2406.jpg",
+        //   name: "Symphony",
+        //   innerCategory: "/symphony",
+        // },
+        // {
+        //   image: "/images/applications/offices/RS3112.jpg",
+        //   name: "Royal Star",
+        //   innerCategory: "/royal-star",
+        // },
+        
+        // {
+        //   image: "/images/applications/offices/SK2630.jpg",
+        //   name: "Startrek",
+        //   innerCategory: "/startrek",
+        // },
+        // {
+        //   image: "/images/applications/offices/EG2047.jpg",
+        //   name: "Elegant",
+        //   innerCategory: "/elegant",
+        // },
+        
       ],
     },
     {
@@ -320,9 +346,9 @@ const VinylApplications = () => {
       para: "Where aesthetics meet practicality, our various ranges are designed to meet the growing aesthetics demands of the guests/ customers in offices, retail and hospitality. It also meets the high performance requirement at the same time.",
       applications: [
         {
-          image: "/images/applications/offices/MW2011.jpg",
-          name: "Moonwalk",
-          innerCategory: "/moonwalk",
+          image: "/images/applications/offices/1.jpg",
+          name: "Tuff",
+          innerCategory: "/tuff",
         },
         {
           image: "/images/applications/hospitality/5.jpg",
@@ -330,61 +356,14 @@ const VinylApplications = () => {
           innerCategory: "/sonata",
         },
         {
-          image: "/images/applications/offices/EG2047.jpg",
-          name: "Elegant",
-          innerCategory: "/elegant",
-        },
-        {
-          image: "/images/applications/offices/Blue-Lagoon.jpg",
-          name: "Accord",
-          innerCategory: "/accord",
-        },
-        {
           image: "/images/applications/offices/1 (1).jpg",
           name: "Suprema RS",
           innerCategory: "/suprema-rs",
         },
         {
-          image: "/images/applications/offices/DZ2998.jpg",
-          name: "Dazzle",
-          innerCategory: "/dazzle",
-        },
-        {
-          image: "/images/applications/offices/MK2152.jpg",
-          name: "Mirakle",
-          innerCategory: "/mirakle",
-        },
-        {
           image: "/images/applications/offices/3.jpg",
           name: "Standard RS",
           innerCategory: "/standard-rs",
-        },
-
-        {
-          image: "/images/applications/offices/MP351013.jpg",
-          name: "Majesty Pro",
-          innerCategory: "/majesty-pro",
-        },
-        {
-          image: "/images/applications/offices/1.jpg",
-          name: "Tuff",
-          innerCategory: "/tuff",
-        },
-
-        {
-          image: "/images/applications/offices/RQ2642.jpg",
-          name: "Aqua RS",
-          innerCategory: "/aqua-rs",
-        },
-        {
-          image: "/images/applications/offices/361037.jpg",
-          name: "Nuplank",
-          innerCategory: "/nuplank",
-        },
-        {
-          image: "/images/applications/offices/SY2406.jpg",
-          name: "Symphony",
-          innerCategory: "/symphony",
         },
         {
           image: "/images/applications/hospitality/1.jpg",
@@ -392,30 +371,82 @@ const VinylApplications = () => {
           innerCategory: "/eco-plus-v",
         },
         {
-          image: "/images/applications/offices/1 (2).jpg",
-          name: "Majesty",
-          innerCategory: "/majesty",
-        },
-        {
-          image: "/images/applications/offices/SK2630.jpg",
-          name: "Startrek",
-          innerCategory: "/startrek",
-        },
-        {
           image: "/images/applications/offices/RS3112.jpg",
           name: "Royal Star",
           innerCategory: "/royal-star",
         },
-        {
-          image: "/images/applications/offices/4 (1).png",
-          name: "Royal Classic",
-          innerCategory: "/royal-classic",
-        },
+        
         {
           image: "/images/applications/offices/MK2152.jpg",
           name: "Tiger",
           innerCategory: "/tiger",
         },
+        // {
+        //   image: "/images/applications/offices/MW2011.jpg",
+        //   name: "Moonwalk",
+        //   innerCategory: "/moonwalk",
+        // },
+        
+        // {
+        //   image: "/images/applications/offices/EG2047.jpg",
+        //   name: "Elegant",
+        //   innerCategory: "/elegant",
+        // },
+        // {
+        //   image: "/images/applications/offices/Blue-Lagoon.jpg",
+        //   name: "Accord",
+        //   innerCategory: "/accord",
+        // },
+        
+        // {
+        //   image: "/images/applications/offices/DZ2998.jpg",
+        //   name: "Dazzle",
+        //   innerCategory: "/dazzle",
+        // },
+        // {
+        //   image: "/images/applications/offices/MK2152.jpg",
+        //   name: "Mirakle",
+        //   innerCategory: "/mirakle",
+        // },
+
+        // {
+        //   image: "/images/applications/offices/MP351013.jpg",
+        //   name: "Majesty Pro",
+        //   innerCategory: "/majesty-pro",
+        // },
+
+        // {
+        //   image: "/images/applications/offices/RQ2642.jpg",
+        //   name: "Aqua RS",
+        //   innerCategory: "/aqua-rs",
+        // },
+        // {
+        //   image: "/images/applications/offices/lvt-group.png",
+        //   name: "Nuplank",
+        //   innerCategory: "/nuplank",
+        // },
+        // {
+        //   image: "/images/applications/offices/SY2406.jpg",
+        //   name: "Symphony",
+        //   innerCategory: "/symphony",
+        // },
+        
+        // {
+        //   image: "/images/applications/offices/1 (2).jpg",
+        //   name: "Majesty",
+        //   innerCategory: "/majesty",
+        // },
+        // {
+        //   image: "/images/applications/offices/SK2630.jpg",
+        //   name: "Startrek",
+        //   innerCategory: "/startrek",
+        // },
+        
+        // {
+        //   image: "/images/applications/offices/4 (1).png",
+        //   name: "Royal Classic",
+        //   innerCategory: "/royal-classic",
+        // },
       ],
     },
     {
@@ -430,42 +461,44 @@ const VinylApplications = () => {
           name: "Sonata",
           innerCategory: "/sonata",
         },
-        {
-          image: "/images/applications/hospitality/1.jpg",
-          name: "Eco Plus V",
-          innerCategory: "/eco-plus-v",
-        },
+       
         {
           image: "/images/applications/offices/1 (1).jpg",
           name: "Suprema RS",
           innerCategory: "/suprema-rs",
         },
         {
-          image: "/images/applications/transport/1.jpg",
-          name: "Gripper",
-          innerCategory: "/gripper",
-        },
-        {
           image: "/images/applications/offices/3.jpg",
           name: "Standard RS",
           innerCategory: "/standard-rs",
         },
-      ],
-    },
-    {
-      type: "Sports",
-      title: "Sports",
-      name: "Sports",
-      bannerImg: "/images/vinyl/Avenger-Banner.jpg",
-      para: "Avengers is multi- purpose sports surface designed for use in a wide range of sporting events like Gymnasiums, Yoga rooms, Table Tennis, fitness centers etc. It is manufactured keeping in view the varying shock absorbing requirements and performance requirements.",
-      applications: [
         {
-          image: "/images/applications/sports/avenger.jpg",
-          name: "Avenger",
-          innerCategory: "/avenger",
+          image: "/images/applications/hospitality/1.jpg",
+          name: "Eco Plus V",
+          innerCategory: "/eco-plus-v",
         },
+        {
+          image: "/images/applications/transport/1.jpg",
+          name: "Gripper",
+          innerCategory: "/gripper",
+        },
+        
       ],
     },
+    // {
+    //   type: "Sports",
+    //   title: "Sports",
+    //   name: "Sports",
+    //   bannerImg: "/images/vinyl/Avenger-Banner.jpg",
+    //   para: "Avengers is multi- purpose sports surface designed for use in a wide range of sporting events like Gymnasiums, Yoga rooms, Table Tennis, fitness centers etc. It is manufactured keeping in view the varying shock absorbing requirements and performance requirements.",
+    //   applications: [
+    //     {
+    //       image: "/images/applications/sports/avenger.jpg",
+    //       name: "Avenger",
+    //       innerCategory: "/avenger",
+    //     },
+    //   ],
+    // },
   ];
 
   const applicationTabsData = [
@@ -473,55 +506,48 @@ const VinylApplications = () => {
       category: "Education",
       url: "/vinyl-flooring/education",
       items: [
-        { name: "Moonwalk", url: "/moonwalk" },
-        { name: "Accord", url: "/accord" },
-        { name: "Mirakle", url: "/mirakle" },
-        { name: "Symphony", url: "/symphony" },
-        { name: "Startrek", url: "/startrek" },
+        // { name: "Moonwalk", url: "/moonwalk" },
+        // { name: "Accord", url: "/accord" },
+        // { name: "Mirakle", url: "/mirakle" },
+        // { name: "Symphony", url: "/symphony" },
+        // { name: "Startrek", url: "/startrek" },
         { name: "Royal Star", url: "/royal-star" },
-        { name: "Elegant", url: "/elegant" },
-        { name: "Dazzle", url: "/dazzle" },
-        { name: "Nuplank", url: "/nuplank" },
         { name: "Tiger", url: "/tiger" },
-        { name: "Avengers", url: "/avengers" },
+        { name: "LVT", url: "/lvt-flooring" },
+        { name: "Royal Classic", url: "/royal-classic" },
+        { name: "Majesty", url: "/majesty" },
+        { name: "Tuff", url: "/tuff" },
+        // { name: "Elegant", url: "/elegant" },
+        // { name: "Dazzle", url: "/dazzle" },
+        
+        
+        // { name: "Avengers", url: "/avengers" },
       ],
     },
     {
       category: "Health Care",
       url: "/vinyl-flooring/healthcare",
       items: [
-        { name: "Moonwalk", url: "/moonwalk" },
-        { name: "Accord", url: "/accord" },
-        { name: "Mirakle", url: "/mirakle" },
-        { name: "Wally", url: "/wally" },
-        { name: "Startrek", url: "/startrek" },
         { name: "Orbit", url: "/orbit" },
         { name: "Royal Star", url: "/royal-star" },
-        { name: "Dazzle", url: "/dazzle" },
-        { name: "Nuplank", url: "/nuplank" },
+        { name: "Tuff", url: "/tuff" },
+        { name: "LVT", url: "/lvt-flooring" },
         { name: "Tiger", url: "/tiger" },
-        { name: "Avengers", url: "/avengers" },
       ],
     },
-    {
-      category: "Wet Areas",
-      url: "/vinyl-flooring/wet-areas",
-      items: [{ name: "Aqua RS", url: "/aqua-rs" }],
-    },
+    // {
+    //   category: "Wet Areas",
+    //   url: "/vinyl-flooring/wet-areas",
+    //   items: [{ name: "Aqua RS", url: "/aqua-rs" }],
+    // },
     {
       category: "Residential",
       url: "/vinyl-flooring/residential",
       items: [
-        { name: "Royal Star", url: "/royal-star" },
-        { name: "Moonwalk", url: "/moonwalk" },
-        { name: "Accord", url: "/accord" },
         { name: "Majesty Pro", url: "/majesty-pro" },
         { name: "Opera", url: "/opera" },
-        { name: "Elegant", url: "/elegant" },
-        { name: "Dazzle", url: "/dazzle" },
         { name: "Royal Classic", url: "/royal-classic" },
-        { name: "Nuplank", url: "/nuplank" },
-        { name: "Mirakle", url: "/mirakle" },
+        { name: "LVT", url: "/lvt-flooring" },
         { name: "Majesty", url: "/majesty" },
         { name: "Printed Flooring", url: "/printed-flooring" },
       ],
@@ -530,44 +556,29 @@ const VinylApplications = () => {
       category: "Offices/Retail",
       url: "/vinyl-flooring/offices-retail",
       items: [
-        { name: "Moonwalk", url: "/moonwalk" },
-        { name: "Accord", url: "/accord" },
-        { name: "Mirakle", url: "/mirakle" },
-        { name: "Symphony", url: "/symphony" },
-        { name: "Startrek", url: "/startrek" },
         { name: "Orbit", url: "/orbit" },
         { name: "Suprema RS", url: "/suprema-rs" },
         { name: "Standard RS", url: "/standard-rs" },
-        { name: "Aqua RS", url: "/aqua-rs" },
-        { name: "Royal Star", url: "/royal-star" },
-        { name: "Elegant", url: "/elegant" },
-        { name: "Dazzle", url: "/dazzle" },
-        { name: "Nuplank", url: "/nuplank" },
+        { name: "LVT", url: "/lvt-flooring" },
         { name: "Majesty Pro", url: "/majesty-pro" },
         { name: "Majesty", url: "/majesty" },
         { name: "Royal Classic", url: "/royal-classic" },
         { name: "Tiger", url: "/tiger" },
-        { name: "Avengers", url: "/avengers" },
+
       ],
     },
     {
       category: "Hospitality",
       url: "/vinyl-flooring/hospitality",
       items: [
-        { name: "Moonwalk", url: "/moonwalk" },
-        { name: "Accord", url: "/accord" },
-        { name: "Mirakle", url: "/mirakle" },
         { name: "Tuff", url: "/tuff" },
-        { name: "Symphony", url: "/symphony" },
-        { name: "Startrek", url: "/startrek" },
         { name: "Sonata", url: "/sonata" },
         { name: "Suprema RS", url: "/suprema-rs" },
         { name: "Standard RS", url: "/standard-rs" },
-        { name: "Aqua RS", url: "/aqua-rs" },
         { name: "Eco Plus V", url: "/eco-plus-v" },
         { name: "Royal Star", url: "/royal-star" },
         { name: "Tiger", url: "/tiger" },
-        { name: "Avengers", url: "/avengers" },
+
       ],
     },
     {
@@ -576,15 +587,16 @@ const VinylApplications = () => {
       items: [
         { name: "Sonata", url: "/sonata" },
         { name: "Suprema RS", url: "/suprema-rs" },
+        { name: "Standard RS", url: "/standard-rs" },
         { name: "Eco Plus V", url: "/eco-plus-v" },
         { name: "Gripper", url: "/gripper" },
       ],
     },
-    {
-      category: "Sports",
-      url: "/vinyl-flooring/sports",
-      items: [{ name: "Avengers", url: "/avengers" }],
-    },
+    // {
+    //   category: "Sports",
+    //   url: "/vinyl-flooring/sports",
+    //   items: [{ name: "Avengers", url: "/avengers" }],
+    // },
   ];
 
   const { category } = useParams(); // Get category from URL

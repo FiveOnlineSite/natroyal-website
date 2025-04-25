@@ -144,7 +144,7 @@ const SeatingComponents = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6">
               <img
-                src="/images/banners/pexels-la-son-211137-4004373.png"
+                src="/images/banners/design-to-delivery.png"
                 alt="seating-img"
                 className="w-100"
               />
@@ -193,7 +193,7 @@ const SeatingComponents = () => {
             <div className="col-lg-4 mt-lg-0 mt-5">
               <NavLink to="/seating-components/railway-metro">
                 <img
-                  src="/images/seating/inside-train-wagon-with-blurred-background.png"
+                  src="/images/seating/railway-metro.png"
                   alt="seating-application"
                 />
 

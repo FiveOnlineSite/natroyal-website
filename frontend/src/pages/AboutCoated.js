@@ -1,15 +1,72 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { NavLink } from "react-router-dom";
+import TestimonialSlider from "../components/TestimonialSlider";
 
 const AboutCoated = () => {
+
+  const testimonialData = [
+    {
+      content: "I approached NatRoyal Group because  I was looking for customized coated fabrics and I am completely satisfied with the quality of products & quick service with which you guys are helping me with.",
+      name: "Binati Daswani",
+      designation: "Head of Purchase, VMC Auto Association"
+    },
+    {
+      content: "We developed a great partnership with Natroyal Group, Their dedication to meet our requirements was exceptional. We appreciate their attention to detail & a quick turn around time even for our international delivery.",
+      name: "Anuj Seth",
+      designation: "Procurement Specialist, Ena Furnishings & Designs"
+    },
+    {
+      content: "Working with Natroyal Group has been an outstanding experience.Their team has always provided great customer service.Purchase experience has been amazing with Natroyal Group & I would recommend them to anyone looking for custom coated fabric.",
+      name: "Jackson Mckeller",
+      designation: "Supply Chain Manager, Marinetime Industries"
+    },
+   
+  ];
+
+  const testimonialSettings = {
+    dots: false,
+  arrows: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    centerMode: false,
+    autoplay: true,
+    // responsive: [
+    //   {
+    //     breakpoint: 950,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+
+    //   {
+    //     breakpoint: 820,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 600,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    // ],
+  };
+
   return (
     <Layout>
       <section className="landing-banner-section">
         <div className="slide-container">
           <div className="poster-container">
             <img
-              src="/images/coated-fabrics/Royal-Touch-Coated-Fabrics.jpg"
+              src="/images/banners/banner-4.jpg"
               alt="Poster"
               className="poster-image"
             />
@@ -89,150 +146,101 @@ const AboutCoated = () => {
         </div>
       </section>
 
-      <section className="key-milestones-section">
+      <section className="quality-policy-section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5">
-              <h2 className="title new-title">
-                {" "}
-                <span className="yellow-title">Key</span> Milestones
+            <div className="col-lg-4">
+            <h2 className="title new-title">
+                <span className="yellow-title"> Quality </span>
+                <br/> Policy
               </h2>
-
-              <div className="milestones-content">
-                <ul>
-                  <li className="paragraph gray-para">
-                    First company in India to develop transfer coating
-                    technology in 1978.
-                  </li>
-                  <li className="paragraph gray-para mt-2">
-                    First company to start a transfer coating line in India
-                  </li>
-                  <li className="paragraph gray-para mt-2">
-                    First company to develop an award-winning heat management
-                    leathercloth product
-                  </li>
-                  <li className="paragraph gray-para mt-2">
-                    First coated fabric company to have backward integration
-                    with knitting machines
-                  </li>
-
-                  <li className="paragraph gray-para mt-2">
-                    First company to have five roll calendar and four roll
-                    calendar machine for vinyl flooring
-                  </li>
-                  <li className="paragraph gray-para mt-2">
-                    First company to develop international standards transport
-                    flooring in India
-                  </li>
-                </ul>
-              </div>
             </div>
-            <div className="col-lg-7">
-              <div className="row milestones-row">
-                <div className="col-lg-6">
-                  <div className="counter-div right-border">
-                    <img
-                      src="/images/icons/testament.png"
-                      alt="icon"
-                      width="80px"
-                      height="80px"
-                    />
-
-                    <h2>60 +</h2>
-
-                    <h6>Year of Group Legacy</h6>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="counter-div left-border">
-                    <img
-                      src="/images/icons/costumer (1).png"
-                      alt="icon"
-                      width="80px"
-                      height="80px"
-                    />
-                    <h2>100 +</h2>
-
-                    <h6>Global Clients</h6>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="counter-div">
-                    <img
-                      src="/images/icons/settings.png"
-                      alt="icon"
-                      width="80px"
-                      height="80px"
-                    />
-                    <h2>120,000</h2>
-
-                    <h6>sq. ft of Manufacturing Facility</h6>
-                  </div>
-                </div>
-
-                <div className="col-lg-6">
-                  <div className="counter-div">
-                    <img
-                      src="/images/icons/self-development.png"
-                      alt="icon"
-                      width="80px"
-                      height="80px"
-                    />
-                    <h2>500 +</h2>
-
-                    <h6>Skilled Employees</h6>
-                  </div>
-                </div>
-              </div>
+            <div className="col-lg-4">
+              <img src="/images/coated-fabrics/quality-policy-2 1.png" alt="quality-policy-img" className="w-100"/>
+            </div>
+            <div className="col-lg-4 ps-lg-5 ps-auto mt-lg-0 mt-5">
+            <p className="paragraph gray-para">
+            We are committed to be a successful global player in the business of PVC coated fabric / PVC sheet by upgrading our quality as per changing customer requirements and continually improving the effectiveness of our Quality Management Systems, thereby delighting our valued customers.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="about-gallery-section">
+      <section className="testimonials-section">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-4 mt-lg-0 mt-4">
-              <img
-                src="/images/coated-fabrics/leather_page-0001 1 (1).png"
-                alt="laboratory-img"
-                className="w-100"
-              />
-            </div>
-            <div className="col-lg-4 mt-lg-0 mt-3">
-              <img
-                src="/images/coated-fabrics/leather_page-0002 1.png"
-                alt="laboratory-img"
-                className="w-100"
-              />
-            </div>
-            <div className="col-lg-4 mt-lg-0 mt-3">
-              <img
-                src="/images/coated-fabrics/leather_page-0004 2.png"
-                alt="laboratory-img"
-                className="w-100"
-              />
-            </div>
-          </div>
+        <h2 className="title new-title text-center">
+                <span className="yellow-title"> Testimonials</span> 
+              </h2>
+          <TestimonialSlider settings={testimonialSettings} slides={testimonialData}/>
+        </div>
+      </section>
 
-          <div className="row">
-            <div className="col-lg-2 mt-lg-5 mt-3">
-              <img
-                src="/images/coated-fabrics/leather_page-0003 1.png"
-                alt="laboratory-img"
-                className="w-100"
-              />
-            </div>
-            <div className="col-lg-4 mt-lg-5 mt-3">
-              <img
-                src="/images/coated-fabrics/leather_page-0005 1.png"
-                alt="laboratory-img"
-                className="w-100"
-              />
+      <section className="awards-honours-section">
+        <div className="container">
+          <div className="col-lg-12">
+          <h2 className="title new-title">
+                <span className="yellow-title"> Awards & </span> Honours
+              </h2>
+            <div className="row honours-row mt-5">
+              <div className="col-lg-3 col-md-6 col-12">
+                <div className="honours-div mt-lg-0 mt-5">
+                  <div className="honours-img">
+                    <img src="/images/icons/awards-bg.png"/>
+                    <div className="honours-content">
+                      <h6>PLASTICON SILVER AWARD</h6>
+                      <p>Use of Plastics in Medical and Public Healthcare</p>
+
+                      <h6 className="mt-4">2018</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12">
+              <div className="honours-div mt-lg-0 mt-5">
+                  <div className="honours-img">
+                    <img src="/images/icons/awards-bg.png"/>
+                    <div className="honours-content">
+                      <h6>MEDICALL MADE IN INDIA INNOVATION SILVER AWARD</h6>
+                      <p>Medical Devices other than POC and Wearables</p>
+
+                      <h6 className="mt-4">2017</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12">
+              <div className="honours-div mt-lg-0 mt-5">
+                  <div className="honours-img">
+                    <img src="/images/icons/awards-bg.png"/>
+                    <div className="honours-content">
+                      <h6>PLASTICON SILVER AWARD</h6>
+                      <p>Innovative Finished Product Category</p>
+
+                      <h6 className="mt-4">2015</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12">
+              <div className="honours-div mt-lg-0 mt-5">
+                  <div className="honours-img">
+                    <img src="/images/icons/awards-bg.png"/>
+                    <div className="honours-content">
+                      <h6>TOYOTA BOSHOKU INDIA</h6>
+                      <p>Best Supplier of the Year Award Rank 1</p>
+
+                      <h6 className="mt-4">2012</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
+     
     </Layout>
   );
 };

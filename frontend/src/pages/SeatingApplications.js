@@ -113,7 +113,7 @@ const SeatingApplications = () => {
       type: "Bus",
       title: "Bus",
       name: "Bus",
-      banner_img: "/images/seating/Bus.jpg",
+      banner_video: "/images/seating/Bus.mp4",
       applications: [
         {
           step: "01",

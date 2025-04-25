@@ -65,7 +65,7 @@ const VideosSlider = ({ settings, slides }) => {
             <iframe
               width="560"
               height="400"
-              src={selectedVideo}
+              src={`${selectedVideo}${selectedVideo.includes('?') ? '&' : '?'}rel=0`}
               className="video-modal w-100"
               title="YouTube video player"
               frameborder="0"
