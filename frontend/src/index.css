@@ -38,6 +38,7 @@ body {
   padding: 0 !important;
   box-sizing: border-box;
   font-family: Euclid Circular B;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -1816,6 +1817,9 @@ body {
   z-index: 11;
   color: var(--black-font);
   display: none;
+  box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2), 0 3px 28px 0 rgba(0, 0, 0, 0.19);
+  border-top: 1px solid var(--light-gray-font);
+  border-radius: 0;
 }
 
 .applications-accordians .accordion {
