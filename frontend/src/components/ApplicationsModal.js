@@ -2,7 +2,7 @@ import React from "react";
 
 const ApplicationsModal = () => {
   return (
-    <>
+    <div className="applications-accordions">
       {/* Applications Button - Opens Modal */}
       <button
         className="btn application-btn"
@@ -59,59 +59,59 @@ const ApplicationsModal = () => {
                     <div className="accordion-body">
                       <ul>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/moonwalk">
                             Moonwalk
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/accord">
                             Accord
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/mirakle">
                             Mirakle
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/symphony">
                             Symphony
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/star-trek">
                             Star Trek
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/royal-star">
                             Royal Star
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/elegant">
                             Elegant
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/dazzle">
                             Dazzle
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
-                            Nuplank
+                          <a className="dropdown-item" href="/lvt-flooring">
+                            LVT
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/tiger">
                             Tiger
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/avengers">
                             Avengers
                           </a>
                         </li>
@@ -142,60 +142,60 @@ const ApplicationsModal = () => {
                     <div className="accordion-body">
                       <ul>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/moonwalk">
                             Moonwalk
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/accord">
                             Accord
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/mirakle">
                             Mirakle
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/wally">
                             Wally
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/star-trek">
                             Star Trek
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/orbit">
                             Orbit
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/royal-star">
                             Royal Star
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/dazzle">
                             Dazzle
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
-                            Nuplank
+                          <a className="dropdown-item" href="/lvt-flooring">
+                            LVT
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/tiger">
                             Tiger
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/avengers">
                             Avengers
                           </a>
                         </li>
@@ -226,7 +226,7 @@ const ApplicationsModal = () => {
                     <div className="accordion-body">
                       <ul>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/aqua-rs">
                             Aqua RS
                           </a>
                         </li>
@@ -257,65 +257,65 @@ const ApplicationsModal = () => {
                     <div className="accordion-body">
                       <ul>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/royal-star">
                             Royal Star
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/moonwalk">
                             Moonwalk
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/accord">
                             Accord
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/majesty-pro">
                             Majesty Pro
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/opera">
                             Opera
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/elegant">
                             Elegant
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/dazzle">
                             Dazzle
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/royal-classic">
                             Royal Classic
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
-                            Nuplank
+                          <a className="dropdown-item" href="/lvt-flooring">
+                            LVT
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/mirakle">
                             Mirakle
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/majesty">
                             Majesty
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/printed-flooring">
                             Printed Flooring
                           </a>
                         </li>
@@ -346,95 +346,95 @@ const ApplicationsModal = () => {
                     <div className="accordion-body">
                       <ul>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/moonwalk">
                             Moonwalk
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/accord">
                             Accord
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/mirakle">
                             Mirakle
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/symphony">
                             Symphony
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/star-trek">
                             Star Trek
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/orbit">
                             Orbit
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/suprema-rs">
                             Suprema RS
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/standard-rs">
                             Standard RS
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/aqua-rs">
                             Aqua RS
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/royal-star">
                             Royal Star
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/elegant">
                             Elegant
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/dazzle">
                             Dazzle
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
-                            Nuplank
+                          <a className="dropdown-item" href="/lvt-flooring">
+                            LVT
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/majesty-pro">
                             Majesty Pro
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/majesty">
                             Majesty
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/royal-classic">
                             Royal Classic
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/tiger">
                             Tiger
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/avengers">
                             Avengers
                           </a>
                         </li>
@@ -464,74 +464,74 @@ const ApplicationsModal = () => {
                     <div className="accordion-body">
                       <ul>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/moonwalk">
                             Moonwalk
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/accord">
                             Accord
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/mirakle">
                             Mirakle
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/tuff">
                             Tuff
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/symphony">
                             Symphony
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/star-trek">
                             Star Trek
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/sonata">
                             Sonata
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/suprema-rs">
                             Suprema RS
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/standard-rs">
                             Standard RS
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/aqua-rs">
                             Aqua RS
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/eco-plus-v">
                             Eco Plus V
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/royal-star">
                             Royal Star
                           </a>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/tiger">
                             Tiger
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/avengers">
                             Avengers
                           </a>
                         </li>
@@ -561,22 +561,22 @@ const ApplicationsModal = () => {
                     <div className="accordion-body">
                       <ul>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/sonata">
                             Sonata
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/suprema-rs">
                             Suprema RS
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/eco-plus-v">
                             Eco Plus V
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/gripper">
                             Gripper
                           </a>
                         </li>
@@ -606,7 +606,7 @@ const ApplicationsModal = () => {
                     <div className="accordion-body">
                       <ul>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/avengers">
                             Avengers
                           </a>
                         </li>
@@ -620,7 +620,7 @@ const ApplicationsModal = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

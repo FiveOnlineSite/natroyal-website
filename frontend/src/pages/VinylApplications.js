@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import { NavLink, useParams } from "react-router-dom";
 import Banner from "../components/Banner";
+import ApplicationsModal from "../components/ApplicationsModal";
 
 const VinylApplications = () => {
   const applicationData = [
@@ -614,7 +615,7 @@ const VinylApplications = () => {
         breadcrumbs={bannerData.breadcrumbs}
       />
 
-      <section className="applications-section">
+      <section className="applications-section vinyl-applications-section">
         <div className="container">
           <div className="row">
             <ul className="application-tabs d-lg-flex align-items-center justify-content-center d-none">
@@ -677,6 +678,8 @@ const VinylApplications = () => {
           </div>
         </div>
       </section>
+
+      <ApplicationsModal />
     </Layout>
   );
 };

@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import { NavLink, useParams } from "react-router-dom";
 import Banner from "../components/Banner";
 import { Modal } from "react-bootstrap";
+import ApplicationsModal from "../components/ApplicationsModal";
 
 const VinylnnerApplication = () => {
   const [technicalModal, setTechnicalModal] = useState(false);
@@ -2563,7 +2564,7 @@ const VinylnnerApplication = () => {
           breadcrumbs={bannerData.breadcrumbs}
         />
 
-        <section className="applications-section">
+        <section className="applications-section vinyl-applications-section">
           <div className="container">
             <div className="row">
               <ul className="application-tabs d-lg-flex align-items-center justify-content-center d-none">
@@ -2737,6 +2738,8 @@ const VinylnnerApplication = () => {
         <section className="suitable-for-section">
           <div className="container"></div>
         </section>
+
+        <ApplicationsModal />
       </Layout>
 
       {technicalModal ? (

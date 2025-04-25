@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 import { NavLink, useParams } from "react-router-dom";
+import CoatedApplicationModal from "../components/CoatedApplicationModal";
 
 const CoatedApplications = () => {
   const applicationData = [
@@ -220,7 +221,7 @@ const CoatedApplications = () => {
         breadcrumbs={bannerData.breadcrumbs}
       />
 
-      <section className="applications-section">
+      <section className="applications-section vinyl-applications-section">
         <div className="container">
           <div className="row">
             <ul className="application-tabs d-flex align-items-center justify-content-center">
@@ -367,6 +368,8 @@ const CoatedApplications = () => {
           </div>
         </div>
       </section>
+
+      <CoatedApplicationModal />
     </Layout>
   );
 };

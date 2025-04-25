@@ -232,7 +232,7 @@ const VinylFlooring = () => {
         </div>
       </section>
 
-      <section className="applications-section">
+      <section className="applications-section vinyl-applications-section">
         <div className="container">
           <div className="row">
             <ul className="application-tabs d-lg-flex align-items-center justify-content-center d-none">
@@ -464,6 +464,8 @@ const VinylFlooring = () => {
       <Clients />
 
       <ConnectSection />
+
+      <ApplicationsModal />
     </Layout>
   );
 };

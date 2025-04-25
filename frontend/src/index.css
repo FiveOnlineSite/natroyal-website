@@ -1806,7 +1806,6 @@ body {
 }
 
 .applications-accordions .application-btn {
-  display: none;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -1815,6 +1814,7 @@ body {
   width: 100%;
   z-index: 11;
   color: var(--black-font);
+  display: none;
 }
 
 .applications-accordians .accordion {
@@ -2237,6 +2237,18 @@ body {
   padding: 20px;
 }
 
+.applications-section.vinyl-applications-section {
+  display: block;
+}
+
+.coated-app-modal-body ul {
+  list-style: none;
+}
+
+.coated-app-modal-body ul li {
+  padding: 10px 0;
+}
+
 @keyframes smallScale {
   0% {
     transform: scale(1);
@@ -2291,6 +2303,14 @@ body {
   .videos-section .slick-next {
     right: 0% !important;
   }
+
+  .applications-section.vinyl-applications-section {
+    display: none;
+  }
+
+  .applications-accordions .application-btn {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -2309,10 +2329,6 @@ body {
 
   .videos-section .slick-prev {
     left: -4% !important;
-  }
-
-  .applications-accordions .application-btn {
-    display: block;
   }
 
   .modal-dialog-bottom {
