@@ -1775,7 +1775,7 @@ body {
   margin-top: 25px;
 }
 
-.seating-application-section img {
+.seating-application-section .seating-img {
   width: 60%;
 }
 
@@ -1832,10 +1832,16 @@ body {
   bottom: -100%;
 }
 
-.seating-application-section img {
+.seating-application-section .seating-img {
   height: 339px;
-  object-fit: cover;
+  object-fit: contain;
   border: 1px solid #ededed;
+}
+
+.seating-application-section .bus-img {
+  object-fit: cover;
+  height: 339px;
+  width: 60%;
 }
 
 .modal.modal-bottom-slide .modal-dialog {

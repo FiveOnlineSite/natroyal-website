@@ -141,6 +141,10 @@ const SeatingApplications = () => {
           step: "03",
           image: "/images/applications/seating/Train-Seat--5.png",
         },
+        {
+          step: "04",
+          image: "/images/applications/seating/Layer 178.png",
+        },
       ],
     },
   ];

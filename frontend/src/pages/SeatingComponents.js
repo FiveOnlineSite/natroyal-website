@@ -203,6 +203,7 @@ const SeatingComponents = () => {
                 <img
                   src="/images/seating/railway-metro.png"
                   alt="seating-application"
+                  className="seating-img"
                 />
 
                 <h4>Railway/Metro</h4>
@@ -220,8 +221,9 @@ const SeatingComponents = () => {
             <div className="col-lg-6 mt-lg-0 mt-5">
               <NavLink to="/seating-components/driver-seats">
                 <img
-                  src="/images/applications/seating/Train-Seat--5.png"
+                  src="/images/applications/seating/Layer 178.png"
                   alt="seating-application"
+                  className="seating-img"
                 />
 
                 <h4>Driver Seats</h4>
@@ -242,7 +244,7 @@ const SeatingComponents = () => {
               <NavLink to="/seating-components/bus">
                 <img
                   src="/images/seating/Bus.jpg"
-                  // className="w-100"
+                  className="bus-img"
                   alt="seating-application"
                 />
 
@@ -262,6 +264,7 @@ const SeatingComponents = () => {
                 <img
                   src="/images/seating/cinema-seats-still-life.png"
                   alt="seating-application"
+                  className="bus-img"
                 />
 
                 <h4>Cinema</h4>
