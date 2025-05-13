@@ -143,6 +143,12 @@ const RoyalKnit = () => {
       text: "Developed for special applications like automotive & footwear.",
       tags: ["Superior Tensile", "High Tear Resistance"],
     },
+    {
+      image: "/images/sliders/Products For Lamination (2).png",
+      name: "Automotive Lamination Fabrics",
+      text: "Developed for special applications like automotive & footwear.",
+      tags: ["Superior Tensile", "High Tear Resistance"],
+    },
   ];
 
   const textilesSettings = {

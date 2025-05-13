@@ -35,44 +35,34 @@ const SeatingApplications = () => {
           step: "02",
           image: "/images/applications/seating/NR SCD PPT 2024_079 1.png",
         },
+
         {
           step: "03",
-          image: "/images/applications/seating/NR SCD PPT 2024_049 1 (1).png",
-        },
-        {
-          step: "04",
           image: "/images/applications/seating/NR SCD PPT 2024_076 1.png",
         },
         {
-          step: "05",
+          step: "04",
           image: "/images/applications/seating/1.png",
         },
         {
-          step: "06",
+          step: "05",
           image: "/images/applications/seating/Train-Seat--2.png",
         },
         {
-          step: "07",
+          step: "06",
           image: "/images/applications/seating/rail.jpg",
         },
         {
-          step: "08",
+          step: "07",
           image: "/images/applications/seating/Train-Seat--3.png",
         },
         {
-          step: "09",
+          step: "08",
           image: "/images/applications/seating/Train-Seat.png",
         },
+
         {
-          step: "10",
-          image: "/images/applications/seating/Train-Seat--4.png",
-        },
-        {
-          step: "11",
-          image: "/images/applications/seating/Train-Seat--5.png",
-        },
-        {
-          step: "12",
+          step: "09",
           image: "/images/applications/seating/Train-Seat--6.png",
         },
         // {
@@ -133,6 +123,26 @@ const SeatingApplications = () => {
         },
       ],
     },
+    {
+      type: "Driver-Seats",
+      title: "Driver Seats",
+      name: "Driver Seats",
+      banner_video: "/images/seating/Bus.mp4",
+      applications: [
+        {
+          step: "01",
+          image: "/images/applications/seating/NR SCD PPT 2024_049 1 (1).png",
+        },
+        {
+          step: "02",
+          image: "/images/applications/seating/Train-Seat--4.png",
+        },
+        {
+          step: "03",
+          image: "/images/applications/seating/Train-Seat--5.png",
+        },
+      ],
+    },
   ];
 
   const { category } = useParams(); // Get category from URL
@@ -179,6 +189,15 @@ const SeatingApplications = () => {
                   to="/seating-components/railway-metro"
                 >
                   Railway/Metro
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink
+                  className="nav-link"
+                  to="/seating-components/driver-seats"
+                  end
+                >
+                  Driver Seats
                 </NavLink>
               </li>
               <li className="nav-item dropdown">

@@ -46,8 +46,8 @@ const Laboratory = () => {
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
-                <NavLink className="nav-link" to="/laboratory-tested">
-                  Laboratory Tested
+                <NavLink className="nav-link" to="/research-and-development">
+                  Research & Development (R&D)
                 </NavLink>
               </li>
             </ul>
@@ -113,7 +113,9 @@ const Laboratory = () => {
                 alt="laboratory-img"
                 className="w-100"
               />
-              <p className="text-center">Taber abrasion and Color Matching Booth</p>
+              <p className="text-center">
+                Taber abrasion and Color Matching Booth
+              </p>
             </div>
           </div>
           <div className="row">

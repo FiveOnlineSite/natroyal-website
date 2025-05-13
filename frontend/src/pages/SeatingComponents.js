@@ -124,6 +124,14 @@ const SeatingComponents = () => {
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
+                <NavLink
+                  className="nav-link"
+                  to="/seating-components/driver-seats"
+                >
+                  Driver Seats
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
                 <NavLink className="nav-link" to="/seating-components/bus">
                   Bus
                 </NavLink>
@@ -185,12 +193,12 @@ const SeatingComponents = () => {
         <div className="container">
           <div className="row">
             <h2 className="title new-title">
-              <span className="yellow-title"> Applications </span>
+              <span className="yellow-title"> Applications </span> For
             </h2>
           </div>
 
           <div className="row">
-            <div className="col-lg-4 mt-lg-0 mt-5">
+            <div className="col-lg-6 mt-lg-0 mt-5">
               <NavLink to="/seating-components/railway-metro">
                 <img
                   src="/images/seating/railway-metro.png"
@@ -209,7 +217,47 @@ const SeatingComponents = () => {
               </NavLink>
             </div>
 
-            <div className="col-lg-4 mt-lg-0 mt-5">
+            <div className="col-lg-6 mt-lg-0 mt-5">
+              <NavLink to="/seating-components/driver-seats">
+                <img
+                  src="/images/applications/seating/Train-Seat--5.png"
+                  alt="seating-application"
+                />
+
+                <h4>Driver Seats</h4>
+
+                <p className="paragraph gray-para mt-4">
+                  We specialize in manufacturing and supplying for the assembled
+                  seat segment, catering to cinema and auditorium seating. From
+                  design and prototyping to testing, tooling, and production, we
+                  deliver end-to-end solutions. Our high-quality materials and
+                  precision engineering ensure durability and comfort. Trusted
+                  by industry leaders for seamless integration and on-time
+                  delivery.
+                </p>
+              </NavLink>
+            </div>
+
+            <div className="col-lg-6 mt-lg-5 mt-5">
+              <NavLink to="/seating-components/bus">
+                <img
+                  src="/images/seating/Bus.jpg"
+                  // className="w-100"
+                  alt="seating-application"
+                />
+
+                <h4>Bus</h4>
+
+                <p className="paragraph gray-para mt-4">
+                  We manufacture and supply seating solutions for the commercial
+                  vehicle and bus segment. Delivering complete solutions from
+                  design to production. Our expertise ensures superior comfort,
+                  durability, and performance.
+                </p>
+              </NavLink>
+            </div>
+
+            <div className="col-lg-6 mt-lg-5 mt-5">
               <NavLink to="/seating-components/cinema">
                 <img
                   src="/images/seating/cinema-seats-still-life.png"
@@ -226,25 +274,6 @@ const SeatingComponents = () => {
                   precision engineering ensure durability and comfort. Trusted
                   by industry leaders for seamless integration and on-time
                   delivery.
-                </p>
-              </NavLink>
-            </div>
-
-            <div className="col-lg-4 mt-lg-0 mt-5">
-              <NavLink to="/seating-components/bus">
-                <img
-                  src="/images/seating/Bus.jpg"
-                  className="w-100"
-                  alt="seating-application"
-                />
-
-                <h4>Bus</h4>
-
-                <p className="paragraph gray-para mt-4">
-                  We manufacture and supply seating solutions for the commercial
-                  vehicle and bus segment. Delivering complete solutions from
-                  design to production. Our expertise ensures superior comfort,
-                  durability, and performance.
                 </p>
               </NavLink>
             </div>

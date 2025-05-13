@@ -4,29 +4,30 @@ import { NavLink } from "react-router-dom";
 import TestimonialSlider from "../components/TestimonialSlider";
 
 const AboutCoated = () => {
-
   const testimonialData = [
     {
-      content: "I approached NatRoyal Group because  I was looking for customized coated fabrics and I am completely satisfied with the quality of products & quick service with which you guys are helping me with.",
+      content:
+        "I approached NatRoyal Group because  I was looking for customized coated fabrics and I am completely satisfied with the quality of products & quick service with which you guys are helping me with.",
       name: "Binati Daswani",
-      designation: "Head of Purchase, VMC Auto Association"
+      designation: "Head of Purchase, VMC Auto Association",
     },
     {
-      content: "We developed a great partnership with Natroyal Group, Their dedication to meet our requirements was exceptional. We appreciate their attention to detail & a quick turn around time even for our international delivery.",
+      content:
+        "We developed a great partnership with Natroyal Group, Their dedication to meet our requirements was exceptional. We appreciate their attention to detail & a quick turn around time even for our international delivery.",
       name: "Anuj Seth",
-      designation: "Procurement Specialist, Ena Furnishings & Designs"
+      designation: "Procurement Specialist, Ena Furnishings & Designs",
     },
     {
-      content: "Working with Natroyal Group has been an outstanding experience.Their team has always provided great customer service.Purchase experience has been amazing with Natroyal Group & I would recommend them to anyone looking for custom coated fabric.",
+      content:
+        "Working with Natroyal Group has been an outstanding experience.Their team has always provided great customer service.Purchase experience has been amazing with Natroyal Group & I would recommend them to anyone looking for custom coated fabric.",
       name: "Jackson Mckeller",
-      designation: "Supply Chain Manager, Marinetime Industries"
+      designation: "Supply Chain Manager, Marinetime Industries",
     },
-   
   ];
 
   const testimonialSettings = {
     dots: false,
-  arrows: false,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -103,8 +104,8 @@ const AboutCoated = () => {
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
-                <NavLink className="nav-link" to="/laboratory-tested">
-                  Laboratory Tested
+                <NavLink className="nav-link" to="/research-and-development">
+                  Research & Development (R&D)
                 </NavLink>
               </li>
             </ul>
@@ -150,43 +151,51 @@ const AboutCoated = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
-            <h2 className="title new-title">
+              <h2 className="title new-title">
                 <span className="yellow-title"> Quality </span>
-                <br/> Policy
+                <br /> Policy
               </h2>
             </div>
             <div className="col-lg-4">
-              <img src="/images/coated-fabrics/quality-policy-2 1.png" alt="quality-policy-img" className="w-100"/>
+              <img
+                src="/images/coated-fabrics/quality-policy-2 1.png"
+                alt="quality-policy-img"
+                className="w-100"
+              />
             </div>
             <div className="col-lg-4 ps-lg-5 ps-auto mt-lg-0 mt-5">
-            <p className="paragraph gray-para">
-            We are committed to be a successful global player in the business of PVC coated fabric / PVC sheet by upgrading our quality as per changing customer requirements and continually improving the effectiveness of our Quality Management Systems, thereby delighting our valued customers.
+              <p className="paragraph gray-para">
+                We are committed to be a successful global player in the
+                business of PVC coated fabric / PVC sheet by upgrading our
+                quality as per changing customer requirements and continually
+                improving the effectiveness of our Quality Management Systems,
+                thereby delighting our valued customers.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="testimonials-section">
+      {/* <section className="testimonials-section">
         <div className="container">
         <h2 className="title new-title text-center">
                 <span className="yellow-title"> Testimonials</span> 
               </h2>
           <TestimonialSlider settings={testimonialSettings} slides={testimonialData}/>
         </div>
-      </section>
+      </section> */}
 
       <section className="awards-honours-section">
         <div className="container">
           <div className="col-lg-12">
-          <h2 className="title new-title">
-                <span className="yellow-title"> Awards & </span> Honours
-              </h2>
+            <h2 className="title new-title">
+              <span className="yellow-title"> Awards & </span> Honours
+            </h2>
             <div className="row honours-row mt-5">
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="honours-div mt-lg-0 mt-5">
                   <div className="honours-img">
-                    <img src="/images/icons/awards-bg.png"/>
+                    <img src="/images/icons/awards-bg.png" />
                     <div className="honours-content">
                       <h6>PLASTICON SILVER AWARD</h6>
                       <p>Use of Plastics in Medical and Public Healthcare</p>
@@ -197,9 +206,9 @@ const AboutCoated = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12">
-              <div className="honours-div mt-lg-0 mt-5">
+                <div className="honours-div mt-lg-0 mt-5">
                   <div className="honours-img">
-                    <img src="/images/icons/awards-bg.png"/>
+                    <img src="/images/icons/awards-bg.png" />
                     <div className="honours-content">
                       <h6>MEDICALL MADE IN INDIA INNOVATION SILVER AWARD</h6>
                       <p>Medical Devices other than POC and Wearables</p>
@@ -210,9 +219,9 @@ const AboutCoated = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12">
-              <div className="honours-div mt-lg-0 mt-5">
+                <div className="honours-div mt-lg-0 mt-5">
                   <div className="honours-img">
-                    <img src="/images/icons/awards-bg.png"/>
+                    <img src="/images/icons/awards-bg.png" />
                     <div className="honours-content">
                       <h6>PLASTICON SILVER AWARD</h6>
                       <p>Innovative Finished Product Category</p>
@@ -223,9 +232,9 @@ const AboutCoated = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12">
-              <div className="honours-div mt-lg-0 mt-5">
+                <div className="honours-div mt-lg-0 mt-5">
                   <div className="honours-img">
-                    <img src="/images/icons/awards-bg.png"/>
+                    <img src="/images/icons/awards-bg.png" />
                     <div className="honours-content">
                       <h6>TOYOTA BOSHOKU INDIA</h6>
                       <p>Best Supplier of the Year Award Rank 1</p>
@@ -239,8 +248,6 @@ const AboutCoated = () => {
           </div>
         </div>
       </section>
-
-     
     </Layout>
   );
 };

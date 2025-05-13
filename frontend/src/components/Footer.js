@@ -78,7 +78,10 @@ const Footer = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="https://www.instagram.com/natroyalgroup/?hl=en">
+                <NavLink
+                  to="https://www.instagram.com/natroyalgroup/?hl=en"
+                  target="_blank"
+                >
                   <i class="fa-brands fa-instagram instagram-logo"></i>
                 </NavLink>
               </li>

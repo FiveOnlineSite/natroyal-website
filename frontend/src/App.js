@@ -35,7 +35,7 @@ function App() {
         <Route path="/seating-components" element={<SeatingComponents />} />
         <Route path="/coated-fabrics" element={<CoatedFabrics />} />
         <Route path="/about-coated" element={<AboutCoated />} />
-        <Route path="/laboratory-tested" element={<Laboratory />} />
+        <Route path="/research-and-development" element={<Laboratory />} />
         {/* <Route path="/vinyl-applications" element={<VinylApplications />} /> */}
         <Route
           path="/vinyl-flooring/:category"

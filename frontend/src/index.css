@@ -116,7 +116,7 @@ body {
 
 .poster-container img,
 .poster-container video {
-  filter: brightness(0.6);
+  /* filter: brightness(0.6); */
 }
 
 .video-container {
@@ -149,9 +149,9 @@ body {
 
 .banner-title {
   /* font-family: Euclid Circular B Bold; */
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 700;
-  line-height: 60.86px;
+  line-height: 44.86px;
   text-align: left;
   color: var(--white-font);
   margin-bottom: 35px;
@@ -847,15 +847,15 @@ body {
 
 .banner-img {
   position: relative;
-  height: 84vh;
+  height: 65vh;
 }
 
 .banner-img img,
 .banner-img video {
-  height: 84vh;
+  height: 65vh;
   object-fit: cover;
   position: relative;
-  filter: brightness(0.6);
+  /* filter: brightness(0.6); */
 }
 
 .banner-section-text {
@@ -871,11 +871,11 @@ body {
 
 .breadcrumb-item + .breadcrumb-item::before {
   content: ">" !important;
-  color: var(--light-gray-font);
+  color: var(--white-font);
 }
 
 .breadcrumb-item a {
-  color: var(--light-gray-font);
+  color: var(--white-font);
   text-decoration: none;
 }
 
@@ -1775,6 +1775,10 @@ body {
   margin-top: 25px;
 }
 
+.seating-application-section img {
+  width: 60%;
+}
+
 .application-tabs li a {
   font-weight: 400;
   font-size: 15px;
@@ -2123,7 +2127,7 @@ body {
 }
 
 .landing-banner-section video {
-  filter: brightness(0.6);
+  /* filter: brightness(0.6); */
 }
 
 .vinyl-applications-section {

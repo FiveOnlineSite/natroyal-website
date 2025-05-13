@@ -48,8 +48,8 @@ const CoatedFabrics = () => {
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
-                <NavLink className="nav-link" to="/laboratory-tested">
-                  Laboratory Tested
+                <NavLink className="nav-link" to="/research-and-development">
+                  Research & Development (R&D)
                 </NavLink>
               </li>
             </ul>
@@ -64,6 +64,95 @@ const CoatedFabrics = () => {
             export
           </h2>
           <div className="row applications-row mt-5">
+            <div className="col-lg-6">
+              <NavLink to="/coated-fabrics/automotive">
+                <div className="single-application">
+                  <img src="/images/coated-fabrics/Group 1 (2).png" />{" "}
+                  <div className="application-content">
+                    <h5>Automotive</h5>
+                    {/* <p className="application-para">
+                      Natroyal leads in performance-coated fabrics for cars,
+                      buses, and motorcycles. We are India's first to develop
+                      phase-change material for heat management.
+                    </p> */}
+                  </div>
+                  <div className="application-overlay">
+                    <div className="application-border">
+                      <NavLink to="/coated-fabrics/automotive">
+                        View More
+                      </NavLink>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+            </div>
+
+            <div className="col-lg-6">
+              <NavLink to="/coated-fabrics">
+                <div className="single-application">
+                  <img src="/images/coated-fabrics/Truck.jpg" />{" "}
+                  <div className="application-content">
+                    <h5>Truck</h5>
+                    {/* <p className="application-para">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s.
+                    </p> */}
+                  </div>
+                  <div className="application-overlay">
+                    <div className="application-border">
+                      <NavLink to="/coated-fabrics">View More</NavLink>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+            </div>
+
+            <div className="col-lg-6">
+              <NavLink to="/coated-fabrics/tractor">
+                <div className="single-application">
+                  <img src="/images/coated-fabrics/Tractor.jpg" />{" "}
+                  <div className="application-content">
+                    <h5>Tractor</h5>
+                    {/* <p className="application-para">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s.
+                    </p> */}
+                  </div>
+                  <div className="application-overlay">
+                    <div className="application-border">
+                      <NavLink to="#">View More</NavLink>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+            </div>
+
+            <div className="col-lg-6">
+              <NavLink to="/coated-fabrics/marine-recreational-vehicles">
+                <div className="single-application">
+                  <img src="/images/coated-fabrics/marine-1.jpg" />{" "}
+                  <div className="application-content">
+                    <h5>Marine & Recreational Vehicles</h5>
+                    {/* <p className="application-para">
+                      Our coated fabrics for the marine industry have been
+                      designed based on extensive research, for them to easily
+                      endure the harsh conditions present on both commercial as
+                      well as recreational vessels.
+                    </p> */}
+                  </div>
+                  <div className="application-overlay">
+                    <div className="application-border">
+                      <NavLink to="/coated-fabrics/marine-recreational-vehicles">
+                        View More
+                      </NavLink>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+            </div>
+
             <div className="col-lg-6 col-12">
               <NavLink to="/coated-fabrics/residential-contract-furnishing">
                 <div className="single-application">
@@ -92,28 +181,7 @@ const CoatedFabrics = () => {
                 </div>
               </NavLink>
             </div>
-            <div className="col-lg-6">
-              <NavLink to="/coated-fabrics/automotive">
-                <div className="single-application">
-                  <img src="/images/coated-fabrics/Group 1 (2).png" />{" "}
-                  <div className="application-content">
-                    <h5>Automotive</h5>
-                    {/* <p className="application-para">
-                      Natroyal leads in performance-coated fabrics for cars,
-                      buses, and motorcycles. We are India's first to develop
-                      phase-change material for heat management.
-                    </p> */}
-                  </div>
-                  <div className="application-overlay">
-                    <div className="application-border">
-                      <NavLink to="/coated-fabrics/automotive">
-                        View More
-                      </NavLink>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-            </div>
+
             <div className="col-lg-6">
               <NavLink to="/coated-fabrics/two-wheelers">
                 <div className="single-application">
@@ -129,29 +197,6 @@ const CoatedFabrics = () => {
                   <div className="application-overlay">
                     <div className="application-border">
                       <NavLink to="/coated-fabrics/two-wheelers">
-                        View More
-                      </NavLink>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-            </div>
-            <div className="col-lg-6">
-              <NavLink to="/coated-fabrics/marine-recreational-vehicles">
-                <div className="single-application">
-                  <img src="/images/coated-fabrics/marine-1.jpg" />{" "}
-                  <div className="application-content">
-                    <h5>Marine & Recreational Vehicles</h5>
-                    {/* <p className="application-para">
-                      Our coated fabrics for the marine industry have been
-                      designed based on extensive research, for them to easily
-                      endure the harsh conditions present on both commercial as
-                      well as recreational vessels.
-                    </p> */}
-                  </div>
-                  <div className="application-overlay">
-                    <div className="application-border">
-                      <NavLink to="/coated-fabrics/marine-recreational-vehicles">
                         View More
                       </NavLink>
                     </div>
@@ -182,27 +227,7 @@ const CoatedFabrics = () => {
                 </div>
               </NavLink>
             </div>
-            <div className="col-lg-6">
-              <NavLink to="/coated-fabrics/footwear">
-                <div className="single-application">
-                  <img src="/images/coated-fabrics/Footwear-Coated-Fabrics.jpg" />{" "}
-                  <div className="application-content">
-                    <h5>Footwear</h5>
-                    {/* <p className="application-para">
-                      With a special range of coated fabrics that have been
-                      meticulously designed to fulfill the distinct requirements
-                      of the footwear industry, Natroyal has emerged as a
-                      leading brand in the market for all our footwear products.
-                    </p> */}
-                  </div>
-                  <div className="application-overlay">
-                    <div className="application-border">
-                      <NavLink to="/coated-fabrics/footwear">View More</NavLink>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-            </div>
+
             <div className="col-lg-6">
               <NavLink to="/coated-fabrics/fashion">
                 <div className="single-application">
@@ -226,41 +251,23 @@ const CoatedFabrics = () => {
                 </div>
               </NavLink>
             </div>
+
             <div className="col-lg-6">
-              <NavLink to="/coated-fabrics/tractor">
+              <NavLink to="/coated-fabrics/footwear">
                 <div className="single-application">
-                  <img src="/images/coated-fabrics/Tractor.jpg" />{" "}
+                  <img src="/images/coated-fabrics/Footwear-Coated-Fabrics.jpg" />{" "}
                   <div className="application-content">
-                    <h5>Tractor</h5>
+                    <h5>Footwear</h5>
                     {/* <p className="application-para">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s.
+                      With a special range of coated fabrics that have been
+                      meticulously designed to fulfill the distinct requirements
+                      of the footwear industry, Natroyal has emerged as a
+                      leading brand in the market for all our footwear products.
                     </p> */}
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
-                      <NavLink to="#">View More</NavLink>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-            </div>
-            <div className="col-lg-6">
-              <NavLink to="/coated-fabrics">
-                <div className="single-application">
-                  <img src="/images/coated-fabrics/Truck.jpg" />{" "}
-                  <div className="application-content">
-                    <h5>Truck</h5>
-                    {/* <p className="application-para">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s.
-                    </p> */}
-                  </div>
-                  <div className="application-overlay">
-                    <div className="application-border">
-                      <NavLink to="/coated-fabrics">View More</NavLink>
+                      <NavLink to="/coated-fabrics/footwear">View More</NavLink>
                     </div>
                   </div>
                 </div>
